@@ -124,11 +124,11 @@ const Header = () => {
                   if (i === 0) {
                     setDropDown((prev) => !prev);
                   }
-                  if (i === 3) {
-                    navigate("/About");
-                  }
                   if (i === 2) {
                     navigate("/Career");
+                  }
+                  if (i === 3) {
+                    navigate("/About");
                   }
                 }}
                 key={u.name}
@@ -343,8 +343,8 @@ const Header = () => {
                     return (
                       <li
                         onClick={() => {
-                          // const link = res.title.replace(/ /g, "");
-                          // navigate(`/${link}`);
+                          const link = res.title.replace(/ /g, "");
+                          navigate(`/${link}`);
                         }}
                         className="list-[disc] my-3"
                         key={res.id}
