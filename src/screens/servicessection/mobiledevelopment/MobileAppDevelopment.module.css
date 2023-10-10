@@ -1,0 +1,1330 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:  space-around;
+    width: 95%;
+}
+.logo{
+    cursor: pointer;
+}
+.mbMain{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+}
+.desc:nth-child(3){
+  background-color: red;
+}
+.right_container{
+    width: 40vw;
+    display: flex;
+    /* font-family: 'Inter'; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+    color: #233D63;
+    cursor: pointer;
+}
+.listContainer{
+    color: #233D63;
+    background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.button{
+    background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+    border-radius: 39px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 610px;
+}
+.backgroundImage{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    border-radius: 0;
+    margin: 0;
+}
+.imageText{
+    position: absolute;
+    width: 80%;
+}
+.title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: white;
+}
+.titles{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 200px;
+    justify-content: center;
+}
+.mainTitle{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #6E7E83;
+    margin: 0;
+}
+.middleTitle{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;   
+    font-size: 46px;
+    line-height: 69px;
+    color: #092A35;
+    margin: 0;
+}
+.lastTitle{
+    font-family: poppins-light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 69px;
+    margin: 0 0 0 15px;
+    color: #092A35;
+}
+.bothTitle{
+    display: flex;
+}
+.mobileAppContent{
+    background-color: #F7FAFB;
+    position: relative;
+    top: 40px;
+    height: 1125px;
+}
+.appContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 37px;
+    width: 1303px;
+    height: 244px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 28px rgba(230, 230, 230, 0.5);
+    border-radius: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1044px;
+    height: 54px;
+}
+.contentTitle{
+    font-family: Poppins-light;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+.description{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #6E7E83;
+}
+.heading{
+    margin-top: 100px;
+    background: #F7FAFB;
+    width: 100%;
+    height: 826px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+.platforms{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #43555A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1500px; */
+}
+.platforms li{
+    list-style: none;
+    width: 220px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    font-family: Inter;
+    font-size: 18px;
+}
+.titleOfRecentProjects{
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mobileApps{
+    background: #F7FAFB;
+    height: 847px;
+    margin-top: 40px;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #092A35;
+    position: relative;
+}
+.dropdown{
+    color: #092A35;
+}
+.dropdown li:hover{
+    background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-bottom: 2px solid transparent;
+    width: auto;
+    border-image: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+    border-image-slice: 1;
+}
+.dropdown li{
+    height: 50px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.schedule{
+    background: #F7FAFB;
+    height: 997px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.schedule .titles{
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+.clientsReview{
+    height: 426px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 600px;
+}
+.clientBg{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    top: 150px;
+    position: relative;
+}
+.titlesOfClients{
+    position: relative;
+    bottom: 250px;
+    right: 470px;
+}
+.mainTitleOfClients{
+    color: #F7FAFB;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+}
+.middleTitleOfClients{
+    color: #FFF;
+    font-size: 46px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 106.5%;
+    letter-spacing: 0.92px;
+}
+.lastTitleOfClients{
+    color: #FFF;
+    font-size: 46px;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 106.5%;
+    letter-spacing: 0.92px;
+}
+.desc{
+    color: #F7FAFB;
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 168.523%;
+    letter-spacing: 0.36px;
+    position: relative;
+    bottom: 250px;
+    right: 550px;
+}
+.box{
+    position: relative;
+    bottom: 900px;
+    left: 300px;
+}
+.box1{
+    position: relative;
+    top: 210px;
+    left: 150px;
+}
+.box2{
+    position: relative;
+    left: 40px;
+    bottom: 80px;
+}
+.contentOfBox2{
+    display: flex;
+    position: relative;
+    left: 60px;
+    bottom: 370px;
+    left: 100px;
+    color: #6E7E83;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.nameOfBox2{
+    color: #092A35;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115.5%;
+    position: relative;
+    display: flex;
+    left: 100px;
+    bottom: 380px;
+}
+.box2Desc{
+    color: var(--dark-color-3, #6E7E83);
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    position: relative;
+    bottom: 390px;
+    left: 100px;
+    display: flex;
+}
+.box3, .box4{
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+.box3{
+    position: relative;
+    left: 50px;
+}
+.contentOfBox3{
+    display: flex;
+    position: relative;
+    left: 60px;
+    bottom: 370px;
+    left: 100px;
+    color: #6E7E83;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.box4{
+    position: relative;
+    left: 25px;
+}
+.contentOfBox1{
+    display: flex;
+    position: relative;
+    left: 210px;
+    bottom: 100px;
+    color: var(--dark-color-3, #6E7E83);
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+.nameOfBox1{
+    color: var(--dark-color, #092A35);
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115.5%;
+    position: relative;
+    display: flex;
+    left: 210px;
+    bottom: 110px;
+}
+.box1Desc{
+    color: var(--dark-color-3, #6E7E83);
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    position: relative;
+    bottom: 120px;
+    left: 110px;
+    display: flex;
+    left: 210px;
+}
+.developmentProcess{
+    display: flex;
+    justify-content: center;
+}
+.mobileProcess{
+    width: 100%;
+    display: flex;
+}
+.ClientReview{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+.mobileApps .titles .mainTitle{
+    margin-top: 80px;
+}
+.mobileDevProcess{
+    display: none;
+}
+.ClientReviewMobileReactTech{
+    display: none;
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1634px) {
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 40px;
+        height: 1225px;
+    }
+    .mobileMainContainer{
+        width: 100%;
+    }
+    .platforms{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #43555A;
+        display: flex;
+        width: 1300px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .heading{
+        height: 750px;
+    }
+    .platforms li{
+        list-style: none;
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        white-space: inherit;
+        font-size: 15px;
+    }
+    .main1{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 50px 0;
+    }
+}
+
+
+@media only screen and (min-width: 310px) and (max-width: 330px) {
+    .content{
+        height: 112px;
+        background: #092A35;
+        margin-top: 70px;
+    }
+    .backgroundImage{
+        display: none;
+    }
+    .title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .titles{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        height: 60px;
+        justify-content: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+    }
+    .middleTitle{
+        font-size: 18px;
+        line-height: 126%;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 5px;
+    }
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 20px;
+        height: 650px;
+    }
+    .heading{
+        margin-top: 30px;
+        height: 400px;
+    }
+    .heading .middleTitle{
+        font-size: 12px;
+    }
+    .heading .lastTitle{
+        font-size: 12px;
+    }
+    .main1{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+    .platforms{
+        font-size: 12px;
+    }
+    .platforms li{
+        list-style: none;
+        width: 120px;
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+        font-family: Inter;
+        font-size: 15px;
+    }
+    .titleOfRecentProjects{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .titleOfRecentProjects .middleTitle{
+        font-size: 14px;
+    }
+    .titleOfRecentProjects .lastTitle{
+        font-size: 14px;
+    }
+    .mobileApps{
+        background: #F7FAFB;
+        height: 405px;
+        margin-top: 20px;
+    }
+    .mobileApps .titles{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobileApps .titles .middleTitle{
+        text-align: center;
+    }
+    .mobileDevProcess{
+        display: flex;
+    }
+    .mobileProcess{
+        display: none;
+    }
+    .schedule .middleTitle{
+        text-align: center;
+    }
+    .schedule{
+        background: #F7FAFB;
+        height: 397px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .schedule .titles{
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .ClientReview{
+        display: none;
+    }
+    .ClientReviewMobileReactTech{
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+    .mobileApps .titles .mainTitle{
+        margin-top: 0;
+    }
+    .heading .mainTitle{
+        margin-top: 50px;
+    }
+    .card{
+        margin-bottom: 37px;
+        width: 272px;
+        height: 162px;
+        background: #FFFFFF;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    .image{
+        height: 50px;
+        width: 50px;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+        height: 54px;
+    }
+    .contentTitle{
+        font-size: 12px;
+        line-height: normal;
+        margin: 0 0 7px 0;
+    }
+    .description{
+        font-size: 9px;
+        line-height: 168.523%;
+        letter-spacing: 0.18px;
+    }
+}
+
+@media only screen and (min-width: 331px) and (max-width: 376px) {
+    .content{
+        height: 112px;
+        background: #092A35;
+        margin-top: 70px;
+    }
+    .backgroundImage{
+        display: none;
+    }
+    .title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .titles{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        height: 60px;
+        justify-content: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+    }
+    .middleTitle{
+        font-size: 18px;
+        line-height: 126%;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 5px;
+    }
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 20px;
+        height: 589px;
+    }
+    .heading{
+        margin-top: 30px;
+        height: 400px;
+    }
+    .heading .middleTitle{
+        font-size: 12px;
+    }
+    .heading .lastTitle{
+        font-size: 12px;
+    }
+    .main1{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+    .platforms{
+        font-size: 12px;
+    }
+    .platforms li{
+        list-style: none;
+        width: 120px;
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+        font-family: Inter;
+        font-size: 15px;
+    }
+    .titleOfRecentProjects{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .titleOfRecentProjects .middleTitle{
+        font-size: 14px;
+    }
+    .titleOfRecentProjects .lastTitle{
+        font-size: 14px;
+    }
+    .mobileApps{
+        background: #F7FAFB;
+        height: 405px;
+        margin-top: 20px;
+    }
+    .mobileApps .titles{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobileApps .titles .middleTitle{
+        text-align: center;
+    }
+    .mobileDevProcess{
+        display: flex;
+    }
+    .mobileProcess{
+        display: none;
+    }
+    .schedule .middleTitle{
+        text-align: center;
+    }
+    .schedule{
+        background: #F7FAFB;
+        height: 397px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .schedule .titles{
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .ClientReview{
+        display: none;
+    }
+    .ClientReviewMobileReactTech{
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+    .mobileApps .titles .mainTitle{
+        margin-top: 0;
+    }
+    .heading .mainTitle{
+        margin-top: 50px;
+    }
+    .card{
+        margin-bottom: 37px;
+        width: 272px;
+        height: 162px;
+        background: #FFFFFF;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    .image{
+        height: 50px;
+        width: 50px;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+        height: 54px;
+    }
+    .contentTitle{
+        font-size: 12px;
+        line-height: normal;
+        margin: 0 0 7px 0;
+    }
+    .description{
+        font-size: 9px;
+        line-height: 168.523%;
+        letter-spacing: 0.18px;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+    .content{
+        height: 112px;
+        background: #092A35;
+        margin-top: 70px;
+    }
+    .backgroundImage{
+        display: none;
+    }
+    .title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .titles{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        height: 60px;
+        justify-content: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+    }
+    .middleTitle{
+        font-size: 18px;
+        line-height: 126%;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 5px;
+    }
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 20px;
+        height: 589px;
+    }
+    .heading{
+        margin-top: 30px;
+        height: 400px;
+    }
+    .heading .middleTitle{
+        font-size: 12px;
+    }
+    .heading .lastTitle{
+        font-size: 12px;
+    }
+    .main1{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+    .platforms{
+        font-size: 12px;
+    }
+    .platforms li{
+        list-style: none;
+        width: 120px;
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+        font-family: Inter;
+        font-size: 15px;
+    }
+    .titleOfRecentProjects{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .titleOfRecentProjects .middleTitle{
+        font-size: 14px;
+    }
+    .titleOfRecentProjects .lastTitle{
+        font-size: 14px;
+    }
+    .mobileApps{
+        background: #F7FAFB;
+        height: 405px;
+        margin-top: 20px;
+    }
+    .mobileApps .titles{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobileApps .titles .middleTitle{
+        text-align: center;
+    }
+    .mobileDevProcess{
+        display: flex;
+    }
+    .mobileProcess{
+        display: none;
+    }
+    .schedule .middleTitle{
+        text-align: center;
+    }
+    .schedule{
+        background: #F7FAFB;
+        height: 397px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .schedule .titles{
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .ClientReview{
+        display: none;
+    }
+    .ClientReviewMobileReactTech{
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+    .mobileApps .titles .mainTitle{
+        margin-top: 0;
+    }
+    .heading .mainTitle{
+        margin-top: 50px;
+    }
+    .card{
+        margin-bottom: 37px;
+        width: 272px;
+        height: 162px;
+        background: #FFFFFF;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    .image{
+        height: 50px;
+        width: 50px;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+        height: 54px;
+    }
+    .contentTitle{
+        font-size: 12px;
+        line-height: normal;
+        margin: 0 0 7px 0;
+    }
+    .description{
+        font-size: 9px;
+        line-height: 168.523%;
+        letter-spacing: 0.18px;
+    }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+    .content{
+        height: 112px;
+        background: #092A35;
+        margin-top: 70px;
+    }
+    .backgroundImage{
+        display: none;
+    }
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .titles{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        height: 100px;
+        justify-content: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+    }
+    .middleTitle{
+        font-size: 18px;
+        line-height: 126%;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 5px;
+    }
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 20px;
+        height: 989px;
+    }
+    .heading{
+        margin-top: 30px;
+        height: 400px;
+    }
+    .heading .middleTitle{
+        font-size: 12px;
+    }
+    .heading .lastTitle{
+        font-size: 12px;
+    }
+    .main1{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+    .platforms{
+        font-size: 12px;
+    }
+    .platforms li{
+        list-style: none;
+        width: 120px;
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+        font-family: Inter;
+        font-size: 15px;
+    }
+    .titleOfRecentProjects{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .titleOfRecentProjects .middleTitle{
+        font-size: 14px;
+    }
+    .titleOfRecentProjects .lastTitle{
+        font-size: 14px;
+    }
+    .mobileApps{
+        background: #F7FAFB;
+        height: 405px;
+        margin-top: 20px;
+    }
+    .mobileApps .titles{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobileApps .titles .middleTitle{
+        text-align: center;
+    }
+    .mobileDevProcess{
+        display: flex;
+    }
+    .mobileProcess{
+        display: none;
+    }
+    .schedule .middleTitle{
+        text-align: center;
+    }
+    .schedule{
+        background: #F7FAFB;
+        height: 397px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .schedule .titles{
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .ClientReview{
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+    .ClientReviewMobileReactTech{
+        display: none;
+    }
+    .mobileApps .titles .mainTitle{
+        margin-top: 0;
+    }
+    .heading .mainTitle{
+        margin-top: 50px;
+    }
+    .card{
+        margin-bottom: 37px;
+        width: 272px;
+        height: 162px;
+        background: #FFFFFF;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    .image{
+        height: 50px;
+        width: 50px;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+        height: 54px;
+    }
+    .contentTitle{
+        font-size: 12px;
+        line-height: normal;
+        margin: 0 0 7px 0;
+    }
+    .description{
+        font-size: 9px;
+        line-height: 168.523%;
+        letter-spacing: 0.18px;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+    .content{
+        display: flex;
+        height: 325px;
+        margin-top: 70px;
+    }
+    .backgroundImage{
+        display: flex;
+        height: 312px;
+        background: #092A35;
+        margin-top: 0px;
+    }
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .titles{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        height: 60px;
+        justify-content: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+    }
+    .middleTitle{
+        font-size: 18px;
+        line-height: 126%;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 5px;
+    }
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 20px;
+        height: 1350px;
+    }
+    .heading{
+        margin-top: 30px;
+        height: 550px;
+    }
+    .heading .middleTitle{
+        font-size: 12px;
+    }
+    .heading .lastTitle{
+        font-size: 12px;
+    }
+    .main1{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+    .platforms{
+        font-size: 12px;
+    }
+    .platforms li{
+        list-style: none;
+        width: 120px;
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        width: 140px;
+        font-family: Inter;
+        font-size: 15px;
+    }
+    .titleOfRecentProjects{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .titleOfRecentProjects .middleTitle{
+        font-size: 14px;
+    }
+    .titleOfRecentProjects .lastTitle{
+        font-size: 14px;
+    }
+    .mobileApps{
+        background: #F7FAFB;
+        height: 405px;
+        margin-top: 20px;
+    }
+    .mobileApps .titles{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobileApps .titles .middleTitle{
+        text-align: center;
+    }
+    .mobileDevProcess{
+        display: flex;
+    }
+    .mobileProcess{
+        display: none;
+    }
+    .schedule .middleTitle{
+        text-align: center;
+    }
+    .schedule{
+        background: #F7FAFB;
+        height: 397px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .schedule .titles{
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .ClientReview{
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+    .ClientReviewMobileReactTech{
+        display: none;
+    }
+    .mobileApps .titles .mainTitle{
+        margin-top: 0;
+    }
+    .heading .mainTitle{
+        margin-top: 50px;
+    }
+    .card{
+        margin-bottom: 37px;
+        width: 272px;
+        height: 162px;
+        background: #FFFFFF;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    .image{
+        height: 50px;
+        width: 50px;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+        height: 54px;
+    }
+    .contentTitle{
+        font-size: 12px;
+        line-height: normal;
+        margin: 0 0 7px 0;
+    }
+    .description{
+        font-size: 9px;
+        line-height: 168.523%;
+        letter-spacing: 0.18px;
+    }
+}

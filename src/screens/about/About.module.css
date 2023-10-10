@@ -1,0 +1,2098 @@
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+.backgroundImage{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    border-radius: 0;
+}
+.imageText{
+    position: absolute;
+    width: 80%;
+}
+.imageVision{
+    margin: 0 30px 0 10px;
+}
+.title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+    color: white;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    height: 752px;
+    background-color: #F7FAFB;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainTitle{
+    color: #6E7E83;
+    font-size: 18px;
+    /* font-family: Inter; */
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+}
+.middleTitle{
+    color:  #092A35;
+    text-align: center;
+    font-size: 46px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 126%;
+    text-transform: capitalize;
+}
+.lastTitle{
+    color: #092A35;
+    text-align: center;
+    font-size: 46px;
+    font-family: poppins-light;
+    font-weight: 300;
+    line-height: 126%;
+    text-transform: capitalize;
+}
+.lastTitleEvent{
+    color: #092A35;
+    text-align: center;
+    font-size: 46px;
+    /* font-family: Poppins; */
+    font-weight: 300;
+    line-height: 126%;
+    text-transform: capitalize;
+    margin: 0 0 0 15px;
+}
+.image{
+    margin:  0 20px;
+}
+.container{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #6E7E83;
+    font-size: 18px;
+    /* font-family: Inter; */
+    line-height: 168.523%;
+    letter-spacing: 0.36px;
+    /* width: 500px; */
+}
+.text1{
+    color: #6E7E83;
+    font-size: 18px;
+    /* font-family: Inter; */
+    line-height: 168.523%;
+    letter-spacing: 0.36px;
+    /* width: 500px; */
+}
+.visionTitle{
+    color: #092A35;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 126%;
+    text-transform: capitalize;
+    display: flex;
+    margin: 0 0 10px 20px;
+}
+.firstContent{
+    display: flex;
+    width: 750px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.secondContent{
+    display: flex;
+    width: 750px;
+    justify-content: space-evenly;
+}
+.firstContentVision{
+    display: flex;
+    flex-direction: column;
+}
+.visionText{
+    color: #6E7E83;
+    font-size: 18px;
+    /* font-family: Inter; */
+    line-height: 168.523%;
+    letter-spacing: 0.36px;
+    margin: 0 0 0 20px;
+}
+.containerOfReview{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+}
+.textOfReview{
+    color: #6E7E83;
+    text-align: right;
+    font-size: 18px;
+    /* font-family: Inter; */
+    line-height: 168.523%;
+    letter-spacing: 0.36px;
+    width: 700px;
+}
+.both{
+    display: flex;
+}
+.mainTitleOfReview{
+    color: #6E7E83;
+    text-align: right;
+    font-size: 18px;
+    /* font-family: Inter; */   
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+}
+.middleTitleOfReview{
+    color: #092A35;
+    text-align: right;
+    font-size: 46px;
+    /* font-family: Poppins; */
+    font-weight: 500;
+    letter-spacing: 0.92px;
+    margin: 0;
+}
+.lastTitleOfReview{
+    color: #092A35;
+    text-align: right;
+    font-size: 46px;
+    /* font-family: Poppins; */
+    font-weight: 300;
+    letter-spacing: 0.92px;
+    margin: 0 0 0 15px;
+}
+.rightContainer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+.titlesOfReview{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+.youtube{
+    position: absolute;
+    top: 370px;
+    left: 200px;
+}
+.youtube:hover{
+  width: 50px;
+  cursor: pointer;
+  left: 195px;
+  top: 365px;
+}
+.bothClient{
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.clientReviewImages{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+.border{
+    width: 1.452px;
+    height: 106.713px;
+    background: #B1C4C9;
+}
+.allReview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.SimpleSoftware{
+    margin-top: 50px;
+    background-color: #F7FAFB;
+    height: 826px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mapTitles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.map{
+    display: flex;
+    width: 90%;
+}
+.mapText{
+    color: #8B8E92;
+    text-align: center;
+    font-size: 20px;
+    /* font-family: Poppins; */
+    letter-spacing: 0.4px;
+    width: 70%;
+}
+.mapTitle{
+    text-align: center;
+    font-size: 30px;
+    /* font-family: Inter; */
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin: 10px 0;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.mixContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleOfRecentProjects{
+    /* margin-top: 40px; */
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 120px;   
+}
+/* .first{
+    display: flex;
+    justify-content: space-around;
+} */
+.bothTitle{
+    display: flex;
+}
+.ratio{
+    height: 726px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.ratioDetail{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.number{
+    color: #233D63;
+    text-align: left;
+    /* font-size: 65px; */
+    font-weight: 500;
+    font: 600 65px system-ui;
+}
+.events1{
+    display: flex;
+}
+.detailBox{
+    width: 410px;
+}
+.ratioText{
+    color: #6E7E83;
+    font-size: 28px;
+    letter-spacing: 0.6px;
+
+}
+.ratioDesc{
+  text-align: left;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+.borderRatio{
+    border-radius: 14px;
+    background: linear-gradient(135deg, #3AC3EB 0%, #792F85 100%);
+    width: 265px;
+    height: 5px;
+    flex-shrink: 0;
+    margin: 30px 0;
+}
+.events{
+    height: 988px;
+}
+.events img{
+    margin: 20px;
+}
+.ourEvents{
+    background-color: #F7FAFB;
+    display: flex;
+    justify-content: center;
+}
+.imgContainer{
+    display: flex;
+}
+.arrowImg{
+    display: "flex";
+    flex-direction: row;
+    margin-top: 20px;
+}
+.titlesOfEvent{
+    display: flex;
+    flex-direction: column;
+    width: 505px;
+    align-items: center;
+    justify-content: center;
+}
+.teamName{
+    color: #000;
+    font-size: 30px;
+    /* font-family: Poppins; */
+    font-weight: 500;
+    margin: 10px 0;
+    text-align: center;
+}
+.teamPosition{
+    color: #6E7E83;
+    text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 162%;
+    letter-spacing: 0.36px;
+    width: 220px;
+}
+.titlesOfTeam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ourTeam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 826px;
+}
+.teamContent{
+    display: flex;
+    margin-top: 50px;
+}
+.teamCard{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 361px;
+    height: 435px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 27px 0px rgba(171, 171, 171, 0.16);
+    margin: 0 20px;
+}
+.empImg{
+    width: 335.955px;
+    height: 307.431px;
+}
+.buttonText{
+    color: #092A35;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.buttonBorder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    border: 2px solid  #092A35;
+    width: 260px;
+    height: 57px;
+    flex-shrink: 0;
+}
+.MobileScreenText{
+    display: none;
+}
+.mobileScreenbutton{
+    display: none;
+}
+.mobileView{
+    display: none;
+}
+.eventName{
+    display: none;
+}
+.buttonContainer{
+    display: flex;
+    align-items: end;
+    height: 150px;
+}
+
+
+@media only screen and (max-width: 1700px) and (min-width: 1400px) {
+    .container{
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        font-size: 60px;
+    }
+    .text{
+        color: #6E7E83;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0.36px;
+    }
+    .visionTitle{
+        color: #092A35;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 126%;
+        text-transform: capitalize;
+        display: flex;
+        margin: 0 0 10px 0;
+    }
+    .firstContent{
+        display: flex;
+        width: 650px;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+    .secondContent{
+        display: flex;
+        width: 650px;
+        justify-content: space-evenly;
+    }
+    .firstContentVision{
+        display: flex;
+        flex-direction: column;
+    }
+    .visionText{
+        color: #6E7E83;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0.36px;
+        margin: 0;
+    }
+    .youtube{
+        position: absolute;
+        top: 370px;
+        left: 80px;
+    }
+    .ratioDetail{
+        width: 80%;
+    }
+    .ratioText{
+        color: #6E7E83;
+        font-size: 25px;
+        letter-spacing: 0.6px;
+    }
+    .events{
+        height: 800px;
+    }
+    .ourEvents{
+        background-color: #F7FAFB;
+        display: flex;
+        justify-content: center;
+    }
+    .events img{
+        width: 400px;
+    }
+    .titlesOfEvent{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+    .teamCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        height: 400px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 0px 4px 27px 0px rgba(171, 171, 171, 0.16);
+        margin: 0 20px;
+    }
+    .empImg{
+        width: 280px;
+        height: 300px;
+    }
+    .buttonText{
+        font-size: 15px;
+    }
+    .buttonBorder{
+        width: 200px;
+        height: 45px;
+        flex-shrink: 0;
+    }
+    .teamName{
+        color: #000;
+        font-size: 30px;
+        /* font-family: Poppins; */
+        font-weight: 500;
+        margin: 3px 0;
+        text-align: center;
+    }
+    .teamPosition{
+        color: #6E7E83;
+        text-align: center;
+        font-size: 20px;
+        font-family: Inter;
+        line-height: 162%;
+        letter-spacing: 0.36px;
+        width: 228px;
+    }
+    .titlesOfTeam{
+      margin-top: 20px;
+    }
+    .ourTeam{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 600px;
+    }
+    .teamContent{
+        display: flex;
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 329px) {
+    .backgroundImage{
+        display: none;
+    }
+    .content{
+        background-color: #092A35;
+        height: 198px;
+        margin-top: 70px;
+    }
+    .title{
+        font-size: 20px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+    }
+    .MobileScreenText{
+        display: flex;
+        color: var(--dark-color-5, #D8E2E4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+    }
+    .mobileScreenbutton{
+        display: flex;
+        width: 105px;
+        height: 24px;
+        flex-shrink: 0;
+        border-radius: 45.012px;
+        border: 1.107px solid  #FFF;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background: transparent;
+        border: none;
+    }
+    .about{
+        height: 642px;
+        margin-top: 20px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .middleTitle{
+        font-size: 18px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .titlesOfReview{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .text{
+        font-size: 9px;
+        letter-spacing: 0.18px;
+    }
+    .events1{
+        display: flex;
+        flex-direction: column;
+    }
+    .text1{
+        display: none;
+    }
+    .visionTitle{
+        font-size: 11px;
+    }
+    .firstContent{
+        width: 250px;
+    }
+    .visionText{
+        font-size: 9px;
+    }
+    .secondContent{
+        width: 250px;
+    }
+    .container{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .imageVision{
+        width: 50px;
+        margin: 0 10px 0 0;
+    }
+    .textOfReview{
+        text-align: center;
+        font-size: 9px;
+        letter-spacing: 0.18px;
+        width: 250px;
+    }
+    .mainTitleOfReview{
+        text-align: center;
+        font-size: 8px; 
+        letter-spacing: 0.8px;
+    }
+    .middleTitleOfReview{
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0.36px;
+    }
+    .lastTitleOfReview{
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0.36px;
+        margin: 0 0 0 10px;
+    }
+    .containerOfReview{
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        width: 280px;
+    }
+    .rightContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .youtube{
+        position: absolute;
+        top: 165px;
+        left: 30px;
+    }
+    .youtube:hover{
+      width: 40px;
+      cursor: pointer;
+      left: 200px;
+      top: 365px;
+    }
+    .bothClient{
+        margin-top: 50px;
+    }
+    .clientReviewImages{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+    }
+    .border{
+        display: none;
+    }
+    .clutch{
+        width: 200px;
+    }
+    .google{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .SimpleSoftware{
+        height: 480px;
+    }
+    .mapTitles{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    .mobileView{
+        display: flex;
+    }
+    .titleOfRecentProjects{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .mainTitle{
+        font-size: 8px;
+        letter-spacing: 0.36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .middleTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .lastTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .bothTitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .borderRatio{
+        display: none;
+    }
+    .number{
+        color: #233D63;
+        text-align: left;
+        /* font-size: 65px; */
+        font-weight: 500;
+        font: 600 25px system-ui;
+    }
+    .ratioText{
+        font-size: 8px;
+    }
+    .ratio{
+        height: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ratioDesc{
+        text-align: left;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .ratioDetail{
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+        margin-top: 20px;
+        /* background-color: red; */
+    }
+    .detailBox{
+        width: 400px;
+    }
+    .titlesOfEvent{
+        width: 310px;
+    }
+    .lastTitleEvent{
+        font-size: 18px;
+        margin: 0 0 0 10px;
+    }
+    .ourEvents{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .eventName{
+        display: flex;
+        font-size: 16px;
+        margin: 0 0 0 20px;
+    }
+    .event1, .event2{
+        width: 272px;
+        height: 204px;
+    }
+    .imgContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ourTeam{
+        height: 1231px;
+        margin-top: 180px;
+    }
+    .mainTitle{
+        font-size: 8px;
+        letter-spacing: 0.8px;
+    }
+    .middleTitle{
+        font-size: 18px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .teamContent{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .teamCard{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 212px;
+        height: 250px;
+        border-radius: 9.042px;
+        border: 1px solid  transparent;
+        background: transparent;
+        margin: 10px 0;
+    }
+    .empImg{
+        width: 212px;
+        height: 194px;
+    }
+    .teamName{
+        font-size: 18px;
+        margin: 5px 0;
+    }
+    .teamPosition{
+        font-size: 11px;
+        width: 220px;
+    }
+    .buttonBorder{
+        border-radius: 45px;
+        border: 1.107px solid  #092A35;
+        width: 115px;
+        height: 28px;
+    }
+    .buttonText{    
+        font-size: 9px;
+    }
+    .buttonContainer{
+        display: flex;
+        align-items: end;
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 376px) {
+    .backgroundImage{
+        display: none;
+    }
+    .content{
+        background-color: #092A35;
+        height: 198px;
+        margin-top: 70px;
+    }
+    .title{
+        font-size: 20px;
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+    }
+    .MobileScreenText{
+        display: flex;
+        color: var(--dark-color-5, #D8E2E4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+    }
+    .mobileScreenbutton{
+        display: flex;
+        width: 105px;
+        height: 24px;
+        flex-shrink: 0;
+        border-radius: 45.012px;
+        border: 1.107px solid #FFF;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background: transparent;
+        border: none;
+    }
+    .about{
+        height: 610px;
+        margin-top: 20px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .middleTitle{
+        font-size: 18px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .events1{
+        display: flex;
+        flex-direction: column;
+    }
+    .titlesOfReview{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .text{
+        font-size: 9px;
+        letter-spacing: 0.18px;
+    }
+    .text1{
+        display: none;
+    }
+    .visionTitle{
+        font-size: 11px;
+    }
+    .firstContent{
+        width: 250px;
+    }
+    .visionText{
+        font-size: 9px;
+    }
+    .secondContent{
+        width: 250px;
+    }
+    .container{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .imageVision{
+        width: 50px;
+        margin: 0 10px 0 0;
+    }
+    .textOfReview{
+        text-align: center;
+        font-size: 9px;
+        letter-spacing: 0.18px;
+        width: 280px;
+    }
+    .mainTitleOfReview{
+        text-align: center;
+        font-size: 8px; 
+        letter-spacing: 0.8px;
+    }
+    .middleTitleOfReview{
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0.36px;
+    }
+    .lastTitleOfReview{
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0.36px;
+        margin: 0 0 0 10px;
+    }
+    .containerOfReview{
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        width: 335px;
+    }
+    .rightContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .youtube{
+        position: absolute;
+        top: 202px;
+        left: 30px;
+    }
+    .youtube:hover{
+      width: 40px;
+      cursor: pointer;
+      left: 200px;
+      top: 365px;
+    }
+    .bothClient{
+        margin-top: 50px;
+    }
+    .clientReviewImages{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+    }
+    .border{
+        display: none;
+    }
+    .clutch{
+        width: 200px;
+    }
+    .google{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .SimpleSoftware{
+        height: 480px;
+    }
+    .mapTitles{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    .mobileView{
+        display: flex;
+    }
+    .titleOfRecentProjects{
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .mainTitle{
+        font-size: 8px;
+        letter-spacing: 0.36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .middleTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .lastTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .bothTitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .borderRatio{
+        display: none;
+    }
+    .number{
+        color: #233D63;
+        text-align: left;
+        /* font-size: 65px; */
+        font-weight: 500;
+        font: 600 25px system-ui;
+    }
+    .ratioText{
+        font-size: 8px;
+    }
+    .ratio{
+        height: 210px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ratioDesc{
+        text-align: left;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .ratioDetail{
+        display: flex;
+        width: 90%;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .detailBox{
+        width: 400px;
+    }
+    .titlesOfEvent{
+        width: 100%;
+    }
+    .lastTitleEvent{
+        font-size: 18px;
+        margin: 0 0 0 10px;
+    }
+    .ourEvents{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 1420px;
+    }
+    .eventName{
+        display: flex;
+        font-size: 16px;
+        margin: 0 0 0 50px;
+    }
+    .event1, .event2{
+        width: 333px;
+        height: 210px;
+    }
+    .imgContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ourTeam{
+        height: 1231px;
+        margin-top: 0px;
+    }
+    .mainTitle{
+        font-size: 8px;
+        letter-spacing: 0.8px;
+    }
+    .middleTitle{
+        font-size: 18px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .teamContent{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .teamCard{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 212px;
+        height: 250px;
+        border-radius: 9.042px;
+        border: 1px solid  transparent;
+        background: transparent;
+        margin: 10px 0;
+    }
+    .empImg{
+        width: 212px;
+        height: 194px;
+    }
+    .teamName{
+        font-size: 18px;
+        margin: 5px 0;
+    }
+    .teamPosition{
+        font-size: 11px;
+        width: 220px;
+    }
+    .buttonBorder{
+        border-radius: 45px;
+        border: 1.107px solid  #092A35;
+        width: 115px;
+        height: 28px;
+    }
+    .buttonText{    
+        font-size: 9px;
+    }
+    .buttonContainer{
+        display: flex;
+        align-items: end;
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+    .backgroundImage{
+        display: none;
+    }
+    .content{
+        background-color: #092A35;
+        height: 198px;
+        margin-top: 70px;
+    }
+    .events1{
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 22px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+    }
+    .MobileScreenText{
+        display: flex;
+        color: var(--dark-color-5, #D8E2E4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+    }
+    .mobileScreenbutton{
+        display: flex;
+        width: 110px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 45.012px;
+        border: 1.107px solid  #FFF;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .button{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background: transparent;
+        border: none;
+    }
+    .about{
+        height: 503px;
+        margin-top: 20px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .middleTitle{
+        font-size: 18px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 9px;
+        letter-spacing: 0.18px;
+    }
+    .text1{
+        display: none;
+    }
+    .visionTitle{
+        font-size: 11px;
+    }
+    .firstContent{
+        width: 250px;
+    }
+    .visionText{
+        font-size: 9px;
+        width: 300px;
+    }
+    .titlesOfReview{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .secondContent{
+        width: 250px;
+    }
+    .container{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .imageVision{
+        width: 50px;
+        margin: 0 10px 0 0;
+    }
+    .textOfReview{
+        text-align: center;
+        font-size: 9px;
+        letter-spacing: 0.18px;
+        width: 299px;
+    }
+    .mainTitleOfReview{
+        text-align: center;
+        font-size: 8px; 
+        letter-spacing: 0.8px;
+    }
+    .middleTitleOfReview{
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0.36px;
+    }
+    .lastTitleOfReview{
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0.36px;
+        margin: 0 0 0 10px;
+    }
+    .containerOfReview{
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        width: 367px;
+        margin: 0 29px;
+    }
+    .rightContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .youtube{
+        position: absolute;
+        top: 223px;
+        left: 42px;
+    }
+    .youtube:hover{
+      width: 40px;
+      cursor: pointer;
+      left: 200px;
+      top: 365px;
+    }
+    .bothClient{
+        margin-top: 50px;
+    }
+    .clientReviewImages{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+    }
+    .border{
+        display: none;
+    }
+    .clutch{
+        width: 200px;
+    }
+    .google{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .SimpleSoftware{
+        height: 480px;
+    }
+    .mapTitles{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    .mobileView{
+        display: flex;
+    }
+    .titleOfRecentProjects{
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .mainTitle{
+        font-size: 8px;
+        letter-spacing: 0.36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .middleTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .lastTitle{
+        text-align: center;
+        font-size: 18px;
+    }
+    .bothTitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .borderRatio{
+        display: none;
+    }
+    .number{
+        color: #233D63;
+        text-align: left;
+        /* font-size: 65px; */
+        font-weight: 500;
+        font: 600 25px system-ui;
+    }
+    .ratioText{
+        font-size: 8px;
+    }
+    .ratio{
+        height: 212px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ratioDesc{
+        text-align: left;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .ratioDetail{
+        display: flex;
+        width: 90%;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .detailBox{
+        width: 400px;
+    }
+    .titlesOfEvent{
+        width: 100%;
+    }
+    .lastTitleEvent{
+        font-size: 18px;
+        margin: 0 0 0 10px;
+    }
+    .ourEvents{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 1420px;
+    }
+    .eventName{
+        display: flex;
+        font-size: 16px;
+        margin: 0 0 0 70px;
+    }
+    .event1, .event2{
+        width: 385px;
+        height: 204px;
+    }
+    .imgContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ourTeam{
+        height: 1231px;
+        margin-top: 0px;
+    }
+    .mainTitle{
+        font-size: 8px;
+        letter-spacing: 0.8px;
+    }
+    .middleTitle{
+        font-size: 18px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .teamContent{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .teamCard{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 212px;
+        height: 250px;
+        border-radius: 9.042px;
+        border: 1px solid  transparent;
+        background: transparent;
+        margin: 10px 0;
+    }
+    .empImg{
+        width: 212px;
+        height: 194px;
+    }
+    .teamName{
+        font-size: 18px;
+        margin: 5px 0;
+    }
+    .teamPosition{
+        font-size: 11px;
+        width: 220px;
+    }
+    .buttonBorder{
+        border-radius: 45px;
+        border: 1.107px solid  #092A35;
+        width: 115px;
+        height: 28px;
+    }
+    .buttonText{    
+        font-size: 9px;
+    }
+    .buttonContainer{
+        display: flex;
+        align-items: end;
+        height: 50px;
+    }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+    .content{
+        height: 300px;
+        margin-top: 70px;
+    }
+    .backgroundImage{
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+        border-radius: 0;
+        margin-top: 0;
+    }
+    .title{
+        font-size: 30px;
+        height: 300px;
+    }
+    .text{
+        color: #6E7E83;
+        font-size: 9px;
+        line-height: 184%;
+        letter-spacing: 0.36px;
+        width: 320px;
+        margin-top: 0px;
+    }
+    .about{
+        height: 465px;
+        background-color: #F7FAFB;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .visionTitle{
+        color: #092A35;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 126%;
+        text-transform: capitalize;
+        display: flex;
+        margin: 0 0 10px 0;
+    }
+    .imageVision{
+        width: 59px;
+    }
+    .firstContent{
+        display: flex;
+        width: 379px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .secondContent{
+        display: flex;
+        width: 390px;
+        justify-content: space-evenly;
+    }
+    .text1{
+        color: #6E7E83;
+        font-size: 9px;
+        /* font-family: Inter; */
+        line-height: 184%;
+        letter-spacing: 0.36px;
+        /* width: 500px; */
+    }
+    .mainTitle{
+        font-size: 14px;
+    }
+    .middleTitle{
+        font-size: 28px;
+    }
+    .lastTitle{
+        font-size: 28px;
+    }
+    .firstContentVision{
+        display: flex;
+        flex-direction: column;
+    }
+    .visionText{
+        color: #6E7E83;
+        font-size: 11px;
+        line-height: 132%;
+        letter-spacing: 0.18px;
+        margin: 0;
+        width: 310px;
+    }
+    .mainTitleOfReview{
+        font-size: 10px;
+    }
+    .middleTitleOfReview{
+        font-size: 28px;
+    }
+    .lastTitleOfReview{
+        font-size: 28px;
+        margin: 0 0 0 10px;
+    }
+    .textOfReview{
+        font-size: 10px;
+        width: 310px;
+    }
+    .allReview{
+        height: 300px;
+    }
+    .image{
+        width: 320px;
+        margin:  0 20px;
+    }
+    .youtube{
+        position: absolute;
+        top: 191px;
+        left: 55px;
+    }
+    .containerOfReview{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 45px;
+    }
+    .clientReviewImages{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+    }
+    .bothClient{
+        margin-top: 40px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .mapText{
+        font-size: 8px;
+    }
+    .softImage{
+        height: 80px;
+        margin: 10px 0;
+    }
+    .mapTitle{
+        font-size: 20px;
+    }
+    .SimpleSoftware{
+        margin-top: 30px;
+        height: 400px;
+    }
+    .ratioDetail{
+        width: 80%;
+    }
+    .borderRatio{
+        border-radius: 14px;
+        background: linear-gradient(135deg, #3AC3EB 0%, #792F85 100%);
+        width: 80px;
+        height: 3px;
+        flex-shrink: 0;
+        margin: 10px 0;
+    }
+    .number{
+        font: 600 33px system-ui;
+    }
+    .ratioText{
+        color: #6E7E83;
+        font-size: 15px;
+        letter-spacing: 0.6px;
+    }
+    .ratio{
+        height: 323px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .detailBox{
+        width: 410px;
+    }
+    .titleOfRecentProjects{
+        margin-top: 40px;   
+    }
+    .ratioDesc{
+        text-align: left;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+      .event1, .event2{
+        width: 234px;
+        height: 187px;
+    }
+    .events img{
+        margin: 10px 7px;
+        width: 234px;
+    }
+    .lastTitleEvent{
+        font-size: 28px;
+        margin: 0 0 0 10px;
+    }
+    .events{
+        height: 450px;
+    }
+    .titlesOfEvent{
+        display: flex;
+        flex-direction: column;
+        width: 234px;
+        justify-content: center;
+        align-items: center;
+    }
+    .teamCard{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 172px;
+        height: 210px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 0px 4px 27px 0px rgba(171, 171, 171, 0.16);
+        margin: 0 6px;
+    }
+    .empImg{
+        width: 150px;
+        height: 200px;
+    }
+    .buttonText{
+        font-size: 15px;
+    }
+    .buttonBorder{
+        width: 200px;
+        height: 45px;
+        flex-shrink: 0;
+    }
+    .teamName{
+        color: #000;
+        font-size: 17px;
+        /* font-family: Poppins; */
+        font-weight: 500;
+        margin: 3px 0;
+        text-align: center;
+    }
+    .teamPosition{
+        color: #6E7E83;
+        text-align: center;
+        font-size: 10px;
+        font-family: Inter;
+        line-height: 162%;
+        letter-spacing: 0.36px;
+        width: 115px;
+    }
+    .titlesOfTeam{
+      margin-top: 20px;
+    }
+    .ourTeam{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 380px;
+        margin-top: 0px;
+    }
+    .teamContent{
+        display: flex;
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+    .content{
+        height: 300px;
+        margin-top: 70px;
+    }
+    .backgroundImage{
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+        border-radius: 0;
+        margin-top: 0;
+    }
+    .title{
+        font-size: 30px;
+        height: 300px;
+    }
+    .text{
+        color: #6E7E83;
+        font-size: 9px;
+        line-height: 184%;
+        letter-spacing: 0.36px;
+        width: 320px;
+        margin-top: 0px;
+    }
+    .allReview{
+        height: 300px;
+    }
+    .about{
+        height: 465px;
+        background-color: #F7FAFB;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .visionTitle{
+        color: #092A35;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 126%;
+        text-transform: capitalize;
+        display: flex;
+        margin: 0 0 10px 0;
+    }
+    .imageVision{
+        width: 59px;
+    }
+    .firstContent{
+        display: flex;
+        width: 379px;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .secondContent{
+        display: flex;
+        width: 390px;
+        justify-content: space-evenly;
+    }
+    .text1{
+        color: #6E7E83;
+        font-size: 9px;
+        /* font-family: Inter; */
+        line-height: 184%;
+        letter-spacing: 0.36px;
+        /* width: 500px; */
+    }
+    .mainTitle{
+        font-size: 14px;
+    }
+    .middleTitle{
+        font-size: 28px;
+    }
+    .lastTitle{
+        font-size: 28px;
+    }
+    .firstContentVision{
+        display: flex;
+        flex-direction: column;
+    }
+    .visionText{
+        color: #6E7E83;
+        font-size: 11px;
+        line-height: 132%;
+        letter-spacing: 0.18px;
+        margin: 0;
+        width: 310px;
+    }
+    .mainTitleOfReview{
+        font-size: 10px;
+    }
+    .middleTitleOfReview{
+        font-size: 28px;
+    }
+    .lastTitleOfReview{
+        font-size: 28px;
+        margin: 0 0 0 10px;
+    }
+    .textOfReview{
+        font-size: 10px;
+        width: 310px;
+    }
+    .image{
+        width: 335px;
+        margin:  0 20px;
+    }
+    .youtube{
+        position: absolute;
+        top: 196px;
+        left: 112px;
+    }
+    .containerOfReview{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 45px;
+    }
+    .clientReviewImages{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+    }
+    .bothClient{
+        margin-top: 40px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .mapText{
+        font-size: 8px;
+    }
+    .softImage{
+        height: 80px;
+        margin: 10px 0;
+    }
+    .mapTitle{
+        font-size: 20px;
+    }
+    .SimpleSoftware{
+        margin-top: 30px;
+        height: 400px;
+    }
+    .ratioDetail{
+        width: 80%;
+    }
+    .borderRatio{
+        border-radius: 14px;
+        background: linear-gradient(135deg, #3AC3EB 0%, #792F85 100%);
+        width: 80px;
+        height: 3px;
+        flex-shrink: 0;
+        margin: 10px 0;
+    }
+    .number{
+        font: 600 33px system-ui;
+    }
+    .ratioText{
+        color: #6E7E83;
+        font-size: 15px;
+        letter-spacing: 0.6px;
+    }
+    .ratio{
+        height: 323px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .detailBox{
+        width: 410px;
+    }
+    .titleOfRecentProjects{
+        margin-top: 40px;   
+    }
+    .ratioDesc{
+        text-align: left;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    .event1, .event2{
+        width: 280px;
+        height: 200px;
+    }
+    .events img{
+        margin: 10px 7px;
+        width: 280px;
+    }
+    .lastTitleEvent{
+        font-size: 28px;
+        margin: 0 0 0 10px;
+    }
+    .events{
+        height: 450px;
+    }
+    .titlesOfEvent{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        justify-content: center;
+        align-items: center;
+    }
+    .teamCard{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 200px;
+        height: 240px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 0px 4px 27px 0px rgba(171, 171, 171, 0.16);
+        margin: 0 6px;
+    }
+    .empImg{
+        width: 170px;
+        height: 200px;
+    }
+    .buttonText{
+        font-size: 15px;
+    }
+    .buttonBorder{
+        width: 200px;
+        height: 45px;
+        flex-shrink: 0;
+    }
+    .teamName{
+        color: #000;
+        font-size: 20px;
+        /* font-family: Poppins; */
+        font-weight: 500;
+        margin: 3px 0;
+        text-align: center;
+    }
+    .teamPosition{
+        color: #6E7E83;
+        text-align: center;
+        font-size: 10px;
+        font-family: Inter;
+        line-height: 162%;
+        letter-spacing: 0.36px;
+        width: 115px;
+    }
+    .titlesOfTeam{
+      margin-top: 20px;
+    }
+    .ourTeam{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 420px;
+    }
+    .teamContent{
+        display: flex;
+        margin: 20px 0;
+    }
+}

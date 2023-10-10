@@ -1,0 +1,1577 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+    height: 800px;
+    align-items: end;
+}
+.heading{
+    color: var(--dark-color, #092A35);
+    font-family: Poppins;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 112%;
+    letter-spacing: 1.3px;
+}
+.leftContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.desc{
+    color: var(--dark-color-3, #6E7E83);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    width: 800px;
+    margin: 20px 0;
+}
+.button{
+    width: 209px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: 2px solid #092A35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textOfButton{
+    color: #092A35;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.icon{
+    margin-left: 10px;
+}
+.jobs{
+    /* margin-top: 70px; */
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainTitle{
+    color: var(--dark-color-3, #6E7E83);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+}
+.mainTitleOfRatio{
+    color: var(--dark-color-3, #6E7E83);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+}
+.mainTitleOfJobOpening{
+    color: var(--dark-color-3, #6E7E83);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+}
+.centerTitle{
+    color: var(--dark-color, #092A35);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.centerTitleOfJobOpening{
+    color: var(--dark-color, #092A35);
+    text-align: left;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.box{
+    width: 481px;
+    height: 176px;
+    display: flex;
+    margin: 30px 20px 0 20px;
+}
+.title{
+    color: #000;
+    font-family: Poppins-light;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 112.5%;
+}
+.text{
+    color: var(--dark-color-3, #6E7E83);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.523%;
+    letter-spacing: 0.36px;
+}
+.jobContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.job1{
+    display: flex;
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+.currentOpening{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 1055px;
+    background: var(--dark-color-6, #F7FAFB);
+}
+.titles{
+    display: flex;
+    text-align: left;
+    width: 84%;
+    flex-direction: column;
+    /* margin: 50px 0; */
+}
+.currentJob{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.middleTitle{
+    color:  #092A35;
+    text-align: center;
+    font-size: 46px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 126%;
+    text-transform: capitalize;
+}
+.middleTitleOfRatio{
+    color:  #092A35;
+    text-align: left;
+    font-size: 46px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 126%;
+    text-transform: capitalize;
+}
+.lastTitleRatio{
+    color: #092A35;
+    text-align: center;
+    font-size: 46px;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 126%;
+    text-transform: capitalize;
+}
+.bothTitle{
+    display: flex;
+    text-align: left;
+    width: 84%;
+}
+.ratio{
+    height: 656px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.ratioDetail{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.number{
+    color: #233D63;
+    text-align: left;
+    /* font-size: 65px; */
+    font-weight: 500;
+    font: 600 65px system-ui;
+}
+.ratioText{
+    color: #6E7E83;
+    font-size: 28px;
+    letter-spacing: 0.6px;
+
+}
+.ratioDesc{
+  text-align: left;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+.events{
+    height: 988px;
+}
+.events img{
+    margin: 20px;
+}
+.ourEvents{
+    background-color: #F7FAFB;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.arrowImg{
+    display: "flex";
+    flex-direction: row;
+    margin-top: 20px;
+}
+.titlesOfEvent{
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    width: 505px;
+    justify-content: center;
+    align-items: center;
+}
+.lastTitleEvent{
+    color: #092A35;
+    text-align: center;
+    font-size: 46px;
+    /* font-family: Poppins; */
+    font-weight: 300;
+    line-height: 126%;
+    text-transform: capitalize;
+    margin: 0 0 0 15px;
+}
+.titleOfRecentProjects{
+    width: 82%;
+    margin-top: 50px;
+}
+.contact{
+    /* background: var(--dark-color-6, #F7FAFB); */
+    height: 950px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.combineContainer{
+    width: 1553px;
+    height: 673px;
+    flex-shrink: 0;
+    background: var(--white, #FFF);
+    box-shadow: 0px 0px 100px 0px rgba(214, 214, 214, 0.34);
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 14.372px;
+}
+.leftContainer{
+    width: 777px;
+    height: 673px;
+    flex-shrink: 0;
+    border-top-left-radius: 14.372px;
+    border-bottom-left-radius: 14.372px;
+}
+iframe{
+    width: 777px;
+    height: 673px;
+}
+.rightContainer{
+    width: 776px;
+    background: #FFF;
+    margin-left: 40px;
+    border-radius: 14.372px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.titleOfContact{
+    color: var(--dark-color-2, #43555A);
+    font-size: 44px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px 0;
+}
+.input{
+    width: 670px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid var(--dark-color-5, #D8E2E4);
+    background: var(--white, #FFF);
+    margin-bottom: 20px;
+}
+.message{
+    width: 670px;
+    height: 103px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+.border{
+    width: 686px;
+    height: 83px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 3px dashed var(--dark-color-5, #D8E2E4);
+    background: var(--white, #FFF);
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-color-3, #6E7E83);
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.containerButton{
+    position: relative;
+    right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.containerButton:hover{
+    cursor: pointer;
+}
+.mainTitle{
+    color: var(--dark-color-3, #6E7E83);
+    text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.lastTitle{
+    color: var(--dark-color, #092A35);
+    text-align: center;
+    font-size: 46px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.lookingForJob{
+    margin-top: 80px;
+    height: 498px;
+    flex-shrink: 0;
+    background: var(--dark-color-6, #F7FAFB);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.mainTitleOfJob{
+    color: var(--dark-color-3, #6E7E83);
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+}
+.centerTitleOfJob{
+    color: var(--dark-color, #092A35);
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* margin: 0; */
+}
+.lastTitleOfJob{
+    color: var(--dark-color, #092A35);
+    font-family: Poppins-light;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.textResume{
+    color: var(--dark-color, #092A35);
+    font-family: Poppins-light;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.mail{
+    color: var(--dark-color, #092A35);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.mobileScreenbutton{
+    display: none;
+}
+.events1{
+    display: flex;
+}
+.events12{
+    display: flex;
+}
+.eventName{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 1634px) and (min-width: 1400px) {
+    .content{
+        height: 650px;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .desc{
+        font-size: 16px;
+    }
+    .button{
+        width: 160px;
+        height: 42px;
+    }
+    .textOfButton{
+        font-size: 16px;
+    }
+    .icon{
+        margin-left: 0;
+    }
+    .background{
+        height: 500px;
+        width: 450px;
+    }
+    .jobs{
+        height: 600px;  
+    }
+    .centerTitle{
+        font-size: 40px;
+    }
+    .box{
+        width: 390px;
+        height: 170px;
+        margin: 20px 10px 0 10px ;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .jobContent{
+        margin-top: 20px;
+    }
+    .image{
+        width: 70px;
+        height: 70px;
+    }
+    .ratio{
+        height: 650px;
+    }
+    .ratioDetail{
+        width: 80%;
+    }
+    .ratioText{
+        color: #6E7E83;
+        font-size: 25px;
+        letter-spacing: 0.6px;
+    }
+    .titleOfRecentProjects{
+        width: 80%;
+        margin-top: 50px;
+    }
+    .events{
+        height: 800px;
+    }
+    .ourEvents{
+        background-color: #F7FAFB;
+        display: flex;
+        justify-content: center;
+    }
+    .events img{
+        width: 400px;
+    }
+    .titlesOfEvent{
+        display: flex;
+        margin-top: 60px;
+        flex-direction: column;
+        width: 400px;
+        align-items: flex-end;
+    }
+    .lookingForJob{
+        margin-top: 70px;
+    }
+    .mainTitleOfJob{
+        font-size: 16px;
+    }
+    .centerTitleOfJob{
+        font-size: 37px;
+    }
+    .lastTitleOfJob{
+        font-size: 37px;
+    }
+    .textResume{
+        font-size: 30px;
+    }
+    .mail{
+        font-size: 30px;
+    }
+    .bgImage{
+        height: 370px;
+        width: 370px;
+    }
+}
+
+
+
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+    .content{
+        height: 500px;
+    }
+    .heading{
+        font-size: 30px;
+        margin: 20px 0 0 0;
+    }
+    .desc{
+        font-size: 12px;
+        width: 450px;
+    }
+    .button{
+        width: 150px;
+        height: 40px;
+    }
+    .textOfButton{
+        font-size: 15px;
+    }
+    .icon{
+        margin-left: 0;
+    }
+    .background{
+        height: 400px;
+        width: 350px;
+    }
+    .jobs{
+        height: 407px;
+        margin-top: 50px;
+    }
+    .centerTitle{
+        font-size: 35px;
+    }
+    .box{
+        width: 310px;
+        height: 150px;
+        margin: 20px 10px 0 10px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 11px;
+    }
+    .jobContent{
+        margin-top: 20px;
+    }
+    .image{
+        width: 50px;
+        height: 50px;
+    }
+    .mainTitleOfJobOpening{
+        text-align: center;
+        font-size: 18px;
+    }
+    .centerTitleOfJobOpening{
+        text-align: center;
+        font-size: 35px;
+    }
+    .currentOpening{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+        background: var(--dark-color-6, #F7FAFB);
+    }
+    .ratio{
+        height: 393px;
+    }
+    .ratioDetail{
+        width: 80%;
+    }
+    .ratioText{
+        color: #6E7E83;
+        font-size: 25px;
+        letter-spacing: 0.6px;
+    }
+    .titleOfRecentProjects{
+        width: 80%;
+        margin-top: 50px;
+    }
+    .events{
+        height: 545px;
+    }
+    .ourEvents{
+        background-color: #F7FAFB;
+        display: flex;
+        justify-content: center;
+    }
+    .events img{
+        width: 300px;
+        margin: 8px;
+    }
+    .titlesOfEvent{
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+        width: 300px;
+        align-items: flex-end;
+    }
+    .lookingForJob{
+        margin-top: 70px;
+    }
+    .mainTitleOfJob{
+        font-size: 16px;
+    }
+    .centerTitleOfJob{
+        font-size: 34px;
+    }
+    .lastTitleOfJob{
+        font-size: 34px;
+    }
+    .textResume{
+        font-size: 30px;
+    }
+    .mail{
+        font-size: 30px;
+    }
+    .bgImage{
+        height: 370px;
+        width: 370px;
+    }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+    .backgroundImage{
+        display: none;
+    }
+    .content{
+        background-color: #092A35;
+        height: 250px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .heading{
+        color: white;
+        font-family: Poppins;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 112%;
+        letter-spacing: 1.1px;
+        text-align: center;
+        margin-top: 44px;
+    }
+    .background{
+        display: none;
+    }
+    .desc:nth-last-child(2){
+        display: none;
+    }
+    .jobContent{
+        margin-top: 0;
+    }
+    .desc{
+        color: var(--dark-color-5, #D8E2E4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        width: 400px;
+    }
+    .title{
+        font-size: 14px;
+        height: 38px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .jobs{
+        height: 750px;
+    }
+    .mobileScreenbutton{
+        display: flex;
+        width: 125px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 45.012px;
+        border: 1.107px solid  #FFF;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background: transparent;
+        border: none;
+    }
+    .leftContent{
+        height: 130px;
+    }
+    .mainTitle{
+        font-size: 10px;
+    }
+    .centerTitle{
+        font-size: 23px;
+    }
+    .image{
+        height: 80px;
+        width: 80px;
+    }
+    .box{
+        width: 400px;
+        height: 60px;
+        display: flex;
+        margin: 30px 20px 0 20px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .currentOpening{
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .job1{
+        display: flex;
+        flex-direction: column;
+    }
+    .currentJob{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .centerTitleOfJobOpening{
+        font-size: 18px;
+        text-align: center;
+    }
+    .mainTitleOfJobOpening{
+        font-size: 8px;
+        text-align: center;
+    }
+    .borderRatio{
+        display: none;
+    }
+    .number{
+        color: #233D63;
+        text-align: left;
+        /* font-size: 65px; */
+        font-weight: 500;
+        font: 600 25px system-ui;
+    }
+    .ratioText{
+        font-size: 8px;
+    }
+    .ratio{
+        height: 230px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ratioDesc{
+        text-align: left;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .titleOfRecentProjects{
+        width: 82%;
+        margin-top: 30px;
+    }
+    .ratioDetail{
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .detailBox{
+        width: 400px;
+    }
+    .mainTitleOfRatio{
+        text-align: center;
+        font-size: 8px;
+    }
+    .middleTitleOfRatio{
+        text-align: center;
+        font-size: 18px;
+    }
+    .lastTitleRatio{
+        text-align: center;
+        font-size: 18px;
+    }
+    .bothTitle{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .events img{
+        margin: 5px;
+    }
+    .event1, .event2{
+        width: 230px;
+        height: 185px;
+    }
+    .events1{
+        display: flex;
+        flex-direction: row;
+    }
+    .middleTitle{
+        font-size: 18px;
+    }
+    .lastTitleEvent{
+        font-size: 18px;
+        margin: 0 0 0 10px;
+    }
+    .ourEvents{
+        background-color: #F7FAFB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        height: 440px;
+    }
+    .titlesOfEvent{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .events12{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+    }
+    .eventName{
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 310px) and (max-width: 329px) {
+    .backgroundImage{
+        display: none;
+    }
+    .content{
+        background-color: #092A35;
+        height: 198px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .heading{
+        color: white;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 112%;
+        letter-spacing: 1.1px;
+        text-align: center;
+        margin-top: 44px;
+    }
+    .background{
+        display: none;
+    }
+    .desc:nth-last-child(2){
+        display: none;
+    }
+    .desc{
+        color: var(--dark-color-5, #D8E2E4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        width: 250px;
+    }
+    .jobContent{
+        margin-top: 0;
+    }
+    .title{
+        font-size: 14px;
+        height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .jobs{
+        height: 637px;
+    }
+    .mobileScreenbutton{
+        display: flex;
+        width: 105px;
+        height: 24px;
+        flex-shrink: 0;
+        border-radius: 45.012px;
+        border: 1.107px solid  #FFF;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background: transparent;
+        border: none;
+    }
+    .leftContent{
+        height: 130px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .centerTitle{
+        font-size: 18px;
+    }
+    .image{
+        height: 50px;
+        width: 50px;
+    }
+    .box{
+        width: 280px;
+        height: 52px;
+        display: flex;
+        margin: 30px 20px 0 20px;
+    }
+    .text{
+        font-size: 9px;
+    }
+    .currentOpening{
+        height: 1550px;
+    }
+    .job1{
+        display: flex;
+        flex-direction: column;
+    }
+    .currentJob{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .centerTitleOfJobOpening{
+        font-size: 18px;
+        text-align: center;
+    }
+    .mainTitleOfJobOpening{
+        font-size: 8px;
+        text-align: center;
+    }
+    .borderRatio{
+        display: none;
+    }
+    .number{
+        color: #233D63;
+        text-align: left;
+        /* font-size: 65px; */
+        font-weight: 500;
+        font: 600 25px system-ui;
+    }
+    .ratioText{
+        font-size: 8px;
+    }
+    .ratio{
+        height: 185px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ratioDesc{
+        text-align: left;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .titleOfRecentProjects{
+        width: 82%;
+        margin-top: 30px;
+    }
+    .ratioDetail{
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .detailBox{
+        width: 400px;
+    }
+    .mainTitleOfRatio{
+        text-align: center;
+        font-size: 8px;
+    }
+    .middleTitleOfRatio{
+        text-align: center;
+        font-size: 18px;
+    }
+    .lastTitleRatio{
+        text-align: center;
+        font-size: 18px;
+    }
+    .bothTitle{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .eventName{
+        display: flex;
+        font-size: 16px;
+        margin: 0 0 0 20px;
+    }
+    .event1, .event2{
+        width: 272px;
+        height: 204px;
+    }
+    .events1{
+        display: flex;
+        flex-direction: column;
+    }
+    .middleTitle{
+        font-size: 18px;
+    }
+    .lastTitleEvent{
+        font-size: 18px;
+        margin: 0 0 0 10px;
+    }
+    .ourEvents{
+        background-color: #F7FAFB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        height: 1300px;
+    }
+    .titlesOfEvent{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .events12{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .eventName{
+        display: flex;
+        font-size: 16px;
+        margin: 0 0 0 20px;
+    }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 376px) {
+    .backgroundImage{
+        display: none;
+    }
+    .content{
+        background-color: #092A35;
+        height: 198px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .heading{
+        color: white;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 112%;
+        letter-spacing: 1.1px;
+        text-align: center;
+        margin-top: 44px;
+    }
+    .background{
+        display: none;
+    }
+    .desc:nth-last-child(2){
+        display: none;
+    }
+    .jobContent{
+        margin-top: 0;
+    }
+    .desc{
+        color: var(--dark-color-5, #D8E2E4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        width: 250px;
+    }
+    .title{
+        font-size: 14px;
+        height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .jobs{
+        height: 637px;
+    }
+    .mobileScreenbutton{
+        display: flex;
+        width: 105px;
+        height: 24px;
+        flex-shrink: 0;
+        border-radius: 45.012px;
+        border: 1.107px solid  #FFF;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background: transparent;
+        border: none;
+    }
+    .leftContent{
+        height: 130px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .centerTitle{
+        font-size: 18px;
+    }
+    .image{
+        height: 50px;
+        width: 50px;
+    }
+    .box{
+        width: 280px;
+        height: 52px;
+        display: flex;
+        margin: 30px 20px 0 20px;
+    }
+    .text{
+        font-size: 9px;
+    }
+    .currentOpening{
+        height: 1550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .job1{
+        display: flex;
+        flex-direction: column;
+    }
+    .currentJob{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .centerTitleOfJobOpening{
+        font-size: 18px;
+        text-align: center;
+    }
+    .mainTitleOfJobOpening{
+        font-size: 8px;
+        text-align: center;
+    }
+    .borderRatio{
+        display: none;
+    }
+    .number{
+        color: #233D63;
+        text-align: left;
+        /* font-size: 65px; */
+        font-weight: 500;
+        font: 600 25px system-ui;
+    }
+    .ratioText{
+        font-size: 8px;
+    }
+    .ratio{
+        height: 185px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ratioDesc{
+        text-align: left;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .titleOfRecentProjects{
+        width: 82%;
+        margin-top: 30px;
+    }
+    .ratioDetail{
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .detailBox{
+        width: 400px;
+    }
+    .mainTitleOfRatio{
+        text-align: center;
+        font-size: 8px;
+    }
+    .middleTitleOfRatio{
+        text-align: center;
+        font-size: 18px;
+    }
+    .lastTitleRatio{
+        text-align: center;
+        font-size: 18px;
+    }
+    .bothTitle{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .eventName{
+        display: flex;
+        font-size: 16px;
+        margin: 0 0 0 20px;
+    }
+    .event1, .event2{
+        width: 272px;
+        height: 204px;
+    }
+    .events1{
+        display: flex;
+        flex-direction: column;
+    }
+    .middleTitle{
+        font-size: 18px;
+    }
+    .lastTitleEvent{
+        font-size: 18px;
+        margin: 0 0 0 10px;
+    }
+    .ourEvents{
+        background-color: #F7FAFB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        height: 1300px;
+    }
+    .titlesOfEvent{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .events12{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .eventName{
+        display: flex;
+        font-size: 16px;
+        margin: 0 0 0 20px;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+    .backgroundImage{
+        display: none;
+    }
+    .content{
+        background-color: #092A35;
+        height: 198px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .heading{
+        color: white;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 112%;
+        letter-spacing: 1.1px;
+        text-align: center;
+        margin-top: 44px;
+    }
+    .background{
+        display: none;
+    }
+    .desc:nth-last-child(2){
+        display: none;
+    }
+    .jobContent{
+        margin-top: 0;
+    }
+    .desc{
+        color: var(--dark-color-5, #D8E2E4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        width: 250px;
+    }
+    .title{
+        font-size: 14px;
+        height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .jobs{
+        height: 637px;
+    }
+    .mobileScreenbutton{
+        display: flex;
+        width: 105px;
+        height: 24px;
+        flex-shrink: 0;
+        border-radius: 45.012px;
+        border: 1.107px solid  #FFF;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background: transparent;
+        border: none;
+    }
+    .leftContent{
+        height: 130px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .centerTitle{
+        font-size: 18px;
+    }
+    .image{
+        height: 50px;
+        width: 50px;
+    }
+    .box{
+        width: 280px;
+        height: 52px;
+        display: flex;
+        margin: 30px 20px 0 20px;
+    }
+    .text{
+        font-size: 9px;
+    }
+    .currentOpening{
+        height: 1550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .job1{
+        display: flex;
+        flex-direction: column;
+    }
+    .currentJob{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .centerTitleOfJobOpening{
+        font-size: 18px;
+        text-align: center;
+    }
+    .mainTitleOfJobOpening{
+        font-size: 8px;
+        text-align: center;
+    }
+    .borderRatio{
+        display: none;
+    }
+    .number{
+        color: #233D63;
+        text-align: left;
+        /* font-size: 65px; */
+        font-weight: 500;
+        font: 600 25px system-ui;
+    }
+    .ratioText{
+        font-size: 8px;
+    }
+    .ratio{
+        height: 185px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ratioDesc{
+        text-align: left;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .titleOfRecentProjects{
+        width: 82%;
+        margin-top: 30px;
+    }
+    .ratioDetail{
+        display: flex;
+        width: 80%;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .detailBox{
+        width: 400px;
+    }
+    .mainTitleOfRatio{
+        text-align: center;
+        font-size: 8px;
+    }
+    .middleTitleOfRatio{
+        text-align: center;
+        font-size: 18px;
+    }
+    .lastTitleRatio{
+        text-align: center;
+        font-size: 18px;
+    }
+    .bothTitle{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .eventName{
+        display: flex;
+        font-size: 16px;
+        margin: 0 0 0 20px;
+    }
+    .event1, .event2{
+        width: 272px;
+        height: 204px;
+    }
+    .events1{
+        display: flex;
+        flex-direction: column;
+    }
+    .middleTitle{
+        font-size: 18px;
+    }
+    .lastTitleEvent{
+        font-size: 18px;
+        margin: 0 0 0 10px;
+    }
+    .ourEvents{
+        background-color: #F7FAFB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        height: 1300px;
+    }
+    .titlesOfEvent{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .events12{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .eventName{
+        display: flex;
+        font-size: 16px;
+        margin: 0 0 0 20px;
+    }
+}

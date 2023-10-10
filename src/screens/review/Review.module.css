@@ -1,0 +1,332 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 389px;
+    /* background: var(--dark-color-6, #F7FAFB); */
+    width: 100%;
+}
+.titles{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.mainTitle{
+    color: var(--dark-color-3, #6E7E83);
+    text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.centerTitle{
+    color: var(--dark-color, #092A35);
+    text-align: right;
+    font-size: 46px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.92px;
+    margin: 0;
+}
+.both {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 140px;
+}
+.lastTitle{
+    color: var(--dark-color, #092A35);
+    text-align: right;
+    font-size: 46px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.92px;
+    margin: 0 0 0 15px;
+}
+.rating{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.clutch{
+    border-radius: 0;
+    margin: 0;
+}
+.google{
+    border-radius: 0;
+    margin: 0;
+}
+.clutchRating{
+    display: flex;
+    flex-direction: column;
+}
+.boxText{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50.847px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.ratingValue{
+    width: 120%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+}
+
+@media only screen and (max-width: 1634px) and (min-width: 1400px) {
+
+    .rating{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .clutch{
+        border-radius: 0;
+        margin: 0;
+        width: 80%;
+    }
+    .google{
+        border-radius: 0;
+        margin: 0;
+        width: 80%;
+    }
+    .clutchRating{
+        display: flex;
+        flex-direction: column;
+    }
+    .boxText{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50.847px;
+        line-height: 64px;
+        color: #FFFFFF;
+    }
+    .ratingValue{
+        width: 120%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-self: center;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1399px) {
+    .main{
+        height: 350px;
+    }
+    .rating{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .clutch{
+        border-radius: 0;
+        margin: 0;
+        width: 80%;
+    }
+    .google{
+        border-radius: 0;
+        margin: 0;
+        width: 90%;
+    }
+}
+
+
+@media only screen and (min-width: 310px) and (max-width: 320px) {
+    .main{
+        display: flex;
+        justify-content: space-evenly;
+        height: 280px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .centerTitle{
+        text-align: center;
+        font-size: 18px;
+        line-height: 126%;
+    }
+    .both {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        height: 10px;
+    }
+    .lastTitle{
+        text-align: center;
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 5px;
+    }
+    .rating{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .clutch{
+        width: 144.449px;
+        height: 63.807px;
+    }
+    .google{
+        width: 144.449px;
+        height: 63.807px;
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width:330px) and (max-width: 375px) {
+    .main{
+        display: flex;
+        justify-content: space-evenly;
+        height: 280px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .centerTitle{
+        text-align: center;
+        font-size: 18px;
+        line-height: 126%;
+    }
+    .both {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        height: 10px;
+    }
+    .lastTitle{
+        text-align: center;
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 5px;
+    }
+    .rating{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .clutch{
+        width: 144.449px;
+        height: 63.807px;
+    }
+    .google{
+        width: 144.449px;
+        height: 63.807px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:385px) and (max-width: 425px) {
+    .main{
+        display: flex;
+        justify-content: space-evenly;
+        height: 280px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .centerTitle{
+        text-align: center;
+        font-size: 18px;
+        line-height: 126%;
+    }
+    .both {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        height: 10px;
+    }
+    .lastTitle{
+        text-align: center;
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 5px;
+    }
+    .rating{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .clutch{
+        width: 144.449px;
+        height: 63.807px;
+    }
+    .google{
+        width: 144.449px;
+        height: 63.807px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:427px) and (max-width: 768px) {
+    .main{
+        display: flex;
+        justify-content: space-evenly;
+        height: 280px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .centerTitle{
+        text-align: center;
+        font-size: 18px;
+        line-height: 126%;
+    }
+    .both {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        height: 10px;
+    }
+    .lastTitle{
+        text-align: center;
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 5px;
+    }
+    .rating{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    .clutch{
+        width: 280px;
+        height: 80px;
+    }
+    .google{
+        width: 280px;
+        height: 80px;
+        margin-top: 0px;
+    }
+}

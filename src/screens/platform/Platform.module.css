@@ -1,0 +1,336 @@
+.main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.platform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.platformContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.icon{
+    margin-left: 10px;
+}
+li:hover{
+    cursor: pointer;
+    background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.imagee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    color: var(--dark-color-2, #43555A);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mainImage{
+    padding: 30px;
+    width: 180px;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 80px;
+}
+.container:hover{
+    margin-top: 79px;
+}
+.button{
+    width: 382px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: 2px solid var(--dark-color, #092A35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    cursor: pointer;
+    width: 387px;
+    height: 60px;
+}
+.textOfButton{
+    color: #092A35;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1634px) {
+    .mainImage{
+        width: 140px;
+        padding: 5px;
+    }
+    .imagee{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 155px;
+    }
+    .name{
+        color: var(--dark-color-2, #43555A);
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1399px) {
+    .mainImage{
+        width: 150px;
+    }
+    .imagee{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .name{
+        color: var(--dark-color-2, #43555A);
+        text-align: center;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+
+@media only screen and (min-width: 310px) and (max-width: 329px) {
+    .main{
+        flex: 0;
+        width: 100px;
+    }
+    .platform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mainImage{
+        padding: 10px;
+        width: 80px;
+    }
+    .name{
+        font-size: 9px;
+    }
+    .button{
+        width: 195px;
+        height: 28px;
+    }
+    .button:hover{
+        cursor: pointer;
+        width: 200px;
+        height: 29px;
+    }
+    .textOfButton{
+        font-size: 9px;
+    }
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .container:hover{
+        margin-top: 37px;
+    }
+    .icon{
+        margin-left: 5px;
+        height: 15px;
+    }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 376px) {
+    .main{
+        flex: 0;
+        width: 100px;
+    }
+    .platform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mainImage{
+        padding: 10px;
+        width: 80px;
+    }
+    .name{
+        font-size: 9px;
+    }
+    .button{
+        width: 195px;
+        height: 28px;
+    }
+    .button:hover{
+        cursor: pointer;
+        width: 200px;
+        height: 29px;
+    }
+    .textOfButton{
+        font-size: 9px;
+    }
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 40px 0;
+    }
+    .container:hover{
+        margin-top: 37px;
+    }
+    .icon{
+        margin-left: 5px;
+        height: 15px;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+    .main{
+        flex: 0;
+        width: 200px;
+    }
+    .platform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mainImage{
+        padding: 10px;
+        width: 100px;
+    }
+    .name{
+        font-size: 11px;
+    }
+    .button{
+        width: 220px;
+        height: 35px;
+    }
+    .button:hover{
+        cursor: pointer;
+        width: 225px;
+        height: 38px;
+    }
+    .textOfButton{
+        font-size: 10px;
+    }
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 40px 0;
+
+    }
+    .container:hover{
+        margin-top: 37px;
+    }
+    .icon{
+        margin-left: 5px;
+        height: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+    .main{
+        flex: 0;
+        width: 200px;
+    }
+    .platform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mainImage{
+        padding: 10px;
+        width: 100px;
+    }
+    .name{
+        font-size: 11px;
+    }
+    .button{
+        width: 220px;
+        height: 35px;
+    }
+    .button:hover{
+        cursor: pointer;
+        width: 225px;
+        height: 38px;
+    }
+    .textOfButton{
+        font-size: 10px;
+    }
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 20px 0;
+
+    }
+    .container:hover{
+        margin-top: 37px;
+    }
+    .icon{
+        margin-left: 5px;
+        height: 15px;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .imagee{
+        height: 150px;
+    }
+    .mainImage{
+        padding: 10px;
+        width: 130px;
+    }
+    .name{
+        font-size: 12px;
+    }
+}

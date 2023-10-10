@@ -1,0 +1,953 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 826px;
+}
+.leftContainer{
+    bottom: 100px;
+    position: relative;
+}
+.firstImg{
+    position: relative;
+    object-fit: cover;
+    width: 429.023px;
+    height: 320.277px;
+}
+.secondImg{
+    position: relative;
+    width: 429.023px;
+    object-fit: cover;
+    height: 320.277px;
+}
+.thirdImg{
+    position: relative;
+    width: 429.023px;
+    object-fit: cover;
+    height: 320.277px;
+}
+.fourthImg{
+    position: relative;
+    width: 429.023px;
+    object-fit: cover;
+    height: 320.277px;
+}
+.mobileView{
+    display: none;
+}
+
+.rightContainer{
+    height: 820px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainTitle{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #6E7E83;
+}
+.combineTitle{
+    display: flex;
+}
+.centerTitle{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 69px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #092A35;
+}
+.lastTitle{
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 69px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #092A35;
+    margin-left: 20px;
+}
+.description{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #6E7E83;
+    text-align: left;
+}
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+}
+.backArrow{
+    margin-right: 40px;
+}
+
+.edit {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+    width: 429.023px;
+    height: 320.277px;
+    
+}
+.profile_pic:hover .edit {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(9, 42, 53, 0.34);
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 220px;
+}
+.icons:hover .rightContainer img{
+    opacity: 0.3;
+}
+.profile_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px
+}
+
+
+
+
+@media only screen and (max-width: 1634px) and (min-width: 1400px) {
+  
+    .container{
+        display: flex;
+        justify-content: space-around;
+        height: 726px;
+    }
+    .projects{
+        display: flex;
+        justify-content: center;
+        /* width: 80%; */
+    }
+    img{
+        border-radius: 20px;
+        margin: 10px;
+    }
+    .firstImg{
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .secondImage{
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .thirdImage{
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .fourthImage{
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        right: 60px;
+        width: 200px;
+    }
+    .edit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+        width: 350px;
+        height: 250px;
+    }
+    .profile_pic:hover .edit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(9, 42, 53, 0.34);
+        cursor: pointer;
+        width: 350px;
+        height: 250px;
+        position: absolute;
+        border-radius: 20px;
+        right: 10px;
+        top: 10px;
+    }
+    .icons:hover .rightContainer img{
+        opacity: 0.3;   
+    }
+    .profile_pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 10px
+    }
+    .leftContainer{
+        position: relative;
+    }
+    .rightContainer{
+        height: 820px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainTitle{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+        letter-spacing: 0.1em;
+        text-transform: capitalize;
+        color: #6E7E83;
+    }
+    .combineTitle{
+        display: flex;
+    }
+    .centerTitle{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 46px;
+        line-height: 69px;
+        text-align: left;
+        letter-spacing: 0.02em;
+        color: #092A35;
+    }
+    .lastTitle{
+        font-style: normal;
+        font-weight: 200;
+        font-size: 46px;
+        line-height: 69px;
+        text-align: left;
+        letter-spacing: 0.02em;
+        color: #092A35;
+        margin-left: 20px;
+    }
+    .description{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: #6E7E83;
+        text-align: left;
+    }
+    .arrow{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .backArrow{
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1399px) {
+    .container{
+        display: flex;
+        justify-content: space-around;
+        height: 500px;
+    }
+    .projects{
+        display: flex;
+        justify-content: center;
+        /* width: 80%; */
+    }
+    img{
+        border-radius: 20px;
+        margin: 5px;
+    }
+    .firstImg{
+        width: 270px;
+        height: 190px;
+        object-fit: cover;
+    }
+    .secondImage{
+        width: 270px;
+        height: 190px;
+        object-fit: cover;
+    }
+    .thirdImage{
+        width: 270px;
+        height: 190px;
+        object-fit: cover;
+    }
+    .fourthImage{
+        width: 270px;
+        height: 190px;
+        object-fit: cover;
+    }
+    .edit img{
+        width: 65px;
+        height: 65px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        right: 60px;
+        width: 150px;
+    }
+    .edit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+        width: 150px;
+        height: 150px;
+    }
+    .profile_pic:hover .edit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(9, 42, 53, 0.34);
+        cursor: pointer;
+        width: 270px;
+        height: 190px;
+        position: absolute;
+        border-radius: 20px;
+        right: 6px;
+        top: 4px;
+    }
+    .icons:hover .rightContainer img{
+        opacity: 0.3;   
+    }
+    .profile_pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 10px
+    }
+    .leftContainer{
+        position: relative; 
+        margin-top: 100px;
+    }
+    .rightContainer{
+        height: 450px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainTitle{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 2px;
+        text-align: left;
+        letter-spacing: 0.1em;
+        text-transform: capitalize;
+        color: #6E7E83;
+    }
+    .combineTitle{
+        display: flex;
+    }
+    .centerTitle{
+        font-size: 35px;
+    }
+    .lastTitle{
+        font-style: normal;
+        font-weight: 200;
+        font-size: 35px;
+        line-height: 69px;
+        text-align: left;
+        letter-spacing: 0.02em;
+        color: #092A35;
+        margin-left: 20px;
+    }
+    .description{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #6E7E83;
+        text-align: left;
+    }
+    .arrow{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .backArrow{
+        margin-right: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 310px) and (max-width: 320px) {
+    .container{
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
+        height: 1150px;
+    }
+    .leftContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        bottom: 0px;
+        margin-top: 20px;
+        position: relative;
+        align-items: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+        text-align: center;
+    }
+    .centerTitle{
+        font-size: 18px;
+        line-height: 170%;
+        text-align: center;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 170%;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .rightContainer1{
+        height: 1000px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rightContainer{
+       display: none;
+    }
+    .leftImage{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstImg{
+        position: relative;
+        object-fit: cover;
+        width: 269.796px;
+        height: 201.41px;
+    }
+    .secondImage{
+        position: relative;
+        object-fit: cover;
+        width: 269.796px;
+        height: 201.41px;
+    }
+    .thirdImage{
+        position: relative;
+        object-fit: cover;
+        width: 269.796px;
+        height: 201.41px;
+    }
+    .fourthImage{
+        position: relative;
+        object-fit: cover;
+        width: 269.796px;
+        height: 201.41px;
+    }
+    .rightImg{
+        display: flex;
+        flex-direction: column;
+    }
+    .edit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+        width: 269.796px;
+        height: 201.41px;
+        
+    }
+    .edit img{
+        width: 55px;
+        height: 55px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        width: 50px;
+    }
+    .icons:hover .rightContainer img{
+        opacity: 0.3;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Description{
+        font-size: 9px;
+        line-height: 168%;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #6E7E83;
+        text-align: center;
+    }
+    .description{
+        display: none;
+    }
+    .mobileView{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile_pic{
+        display: flex;
+        flex-direction: column;
+    }
+    .appName{
+        color: var(--dark-color-2, #43555A);
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        margin-left: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+
+@media only screen and (min-width: 330px) and (max-width: 375px) {
+    .container{
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
+        height: 1150px;
+    }
+    .leftContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        bottom: 0px;
+        margin-top: 20px;
+        position: relative;
+        align-items: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+        text-align: center;
+    }
+    .centerTitle{
+        font-size: 18px;
+        line-height: 170%;
+        text-align: center;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 170%;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .rightContainer1{
+        height: 1000px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rightContainer{
+       display: none;
+    }
+    .leftImage{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstImg{
+        position: relative;
+        object-fit: cover;
+        width: 269.796px;
+        height: 201.41px;
+    }
+    .secondImage{
+        position: relative;
+        object-fit: cover;
+        width: 269.796px;
+        height: 201.41px;
+    }
+    .thirdImage{
+        position: relative;
+        object-fit: cover;
+        width: 269.796px;
+        height: 201.41px;
+    }
+    .fourthImage{
+        position: relative;
+        object-fit: cover;
+        width: 269.796px;
+        height: 201.41px;
+    }
+    .rightImg{
+        display: flex;
+        flex-direction: column;
+    }
+    .edit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+        width: 269.796px;
+        height: 201.41px;
+        
+    }
+    .edit img{
+        width: 55px;
+        height: 55px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        width: 50px;
+    }
+    .icons:hover .rightContainer img{
+        opacity: 0.3;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Description{
+        font-size: 9px;
+        line-height: 168%;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #6E7E83;
+        text-align: center;
+
+    }
+    .description{
+        display: none;
+    }
+    .mobileView{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile_pic{
+        display: flex;
+        flex-direction: column;
+    }
+    .appName{
+        color: var(--dark-color-2, #43555A);
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        margin-left: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+
+@media only screen and (min-width:385px) and (max-width: 426px) {
+    .container{
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
+        height: 1350px;
+    }
+    .leftContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        bottom: 0px;
+        margin-top: 20px;
+        position: relative;
+        align-items: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+        text-align: center;
+    }
+    .centerTitle{
+        font-size: 18px;
+        line-height: 170%;
+        text-align: center;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 170%;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .rightContainer1{
+        height: 1000px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rightContainer{
+       display: none;
+    }
+    .leftImage{
+        display: flex;
+        flex-direction: column;
+    }
+    .firstImg{
+        position: relative;
+        object-fit: cover;
+        width: 300px;
+        height: 230px;
+    }
+    .secondImage{
+        position: relative;
+        object-fit: cover;
+        width: 300px;
+        height: 230px;
+    }
+    .thirdImage{
+        position: relative;
+        object-fit: cover;
+        width: 300px;
+        height: 230px;
+    }
+    .fourthImage{
+        position: relative;
+        object-fit: cover;
+        width: 300px;
+        height: 230px;
+    }
+    .rightImg{
+        display: flex;
+        flex-direction: column;
+    }
+    .edit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+        width: 300px;
+        height: 230px;
+        
+    }
+    .edit img{
+        width: 75px;
+        height: 75px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        width: 50px;
+    }
+    .icons:hover .rightContainer img{
+        opacity: 0.3;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Description{
+        font-size: 13px;
+        line-height: 168%;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #6E7E83;
+        text-align: center;
+        margin-top: 50px;
+        width: 350px;
+    }
+    .description{
+        display: none;
+    }
+    .mobileView{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile_pic{
+        display: flex;
+        flex-direction: column;
+    }
+    .appName{
+        color: var(--dark-color-2, #43555A);
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        margin-left: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+
+@media only screen and (min-width:427px) and (max-width: 769px) {
+    .container{
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
+        height: 750px;
+    }
+    .leftContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        bottom: 0px;
+        margin-top: 0;
+        position: relative;
+        align-items: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+        text-align: center;
+    }
+    .centerTitle{
+        font-size: 18px;
+        line-height: 170%;
+        text-align: center;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 170%;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .rightContainer1{
+        height: 430px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .rightContainer{
+       display: none;
+    }
+    .leftImage{
+        display: flex;
+        flex-direction: row;
+    }
+    .firstImg{
+        position: relative;
+        object-fit: cover;
+        width: 300px;
+        height: 230px;
+    }
+    .secondImage{
+        position: relative;
+        object-fit: cover;
+        width: 300px;
+        height: 230px;
+    }
+    .thirdImage{
+        position: relative;
+        object-fit: cover;
+        width: 300px;
+        height: 230px;
+    }
+    .fourthImage{
+        position: relative;
+        object-fit: cover;
+        width: 300px;
+        height: 230px;
+    }
+    .rightImg{
+        display: flex;
+        flex-direction: row;
+    }
+    .edit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+        width: 300px;
+        height: 230px;
+        
+    }
+    .edit img{
+        width: 75px;
+        height: 75px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        width: 50px;
+    }
+    .icons:hover .rightContainer img{
+        opacity: 0.3;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Description{
+        font-size: 13px;
+        line-height: 168%;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #6E7E83;
+        text-align: center;
+        margin-top: 50px;
+        width: 80vw;
+    }
+    .description{
+        display: none;
+    }
+    .mobileView{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile_pic{
+        display: flex;
+        flex-direction: column;
+    }
+    .appName{
+        display: none;
+    }
+}
+

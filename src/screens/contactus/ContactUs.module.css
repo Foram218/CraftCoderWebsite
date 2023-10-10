@@ -1,0 +1,1906 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: #FFF; */
+}
+.imageText{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    text-align: center;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+    color: white;
+}
+.text{
+    font-family: Inter;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: white;
+    width: 700px;
+} 
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 590px;
+    width: 100%;
+    margin-top: 60px;
+}
+.ourContact{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    align-items: center;  
+    height: 550px;  
+}
+.visitDetail{
+    width: 471px;
+    height: 351px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid var(--dark-color-5, #D8E2E4);
+    background: var(--white, #FFF);
+}
+.titleBox{
+    color: #43555A;
+    font-size: 36px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.textBox{
+    color: var(--dark-color-3, #6E7E83);
+    text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.523%;
+    letter-spacing: 0.36px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.visitDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainTitle{
+    color: var(--dark-color-3, #6E7E83);
+    text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.lastTitle{
+    color: var(--dark-color, #092A35);
+    text-align: center;
+    font-size: 46px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.contact{
+    background: var(--dark-color-6, #F7FAFB);
+    height: 950px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.combineContainer{
+    width: 1553px;
+    height: 673px;
+    flex-shrink: 0;
+    background: var(--white, #FFF);
+    box-shadow: 0px 0px 100px 0px rgba(214, 214, 214, 0.34);
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 14.372px;
+}
+.leftContainer{
+    width: 777px;
+    height: 673px;
+    flex-shrink: 0;
+    border-top-left-radius: 14.372px;
+    border-bottom-left-radius: 14.372px;
+}
+iframe{
+    width: 777px;
+    height: 673px;
+}
+.rightContainer{
+    width: 776px;
+    background: #FFF;
+    margin-left: 40px;
+    border-radius: 14.372px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.titleOfContact{
+    color: var(--dark-color-2, #43555A);
+    font-size: 44px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px 0;
+}
+textarea{
+    padding: 10px 15px;
+    border: 2px solid var(--dark-color-5, #D8E2E4);
+    border-radius: 10px;
+}
+.input{
+    width: 670px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    padding: 0 15px;
+    border: 2px solid var(--dark-color-5, #D8E2E4);
+    background: var(--white, #FFF);
+    margin-bottom: 20px;
+}
+.message{
+    width: 670px;
+    height: 103px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.border{
+    width: 670px;
+    height: 83px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 3px dashed var(--dark-color-5, #D8E2E4);
+    background: var(--white, #FFF);
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-color-3, #6E7E83);
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.slide{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+}
+.container{
+    position: relative;
+    right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button{
+    width: 209px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: 2px solid #092A35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+}
+.textOfButton{
+    color: #092A35;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.clientStories{
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+}
+.clientReviewDetail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.titleOfCC{
+    color: var(--dark-color, #092A35);
+    font-size: 34px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+  
+}
+.textColor{
+    color: #E62415;
+    font-size: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 112.5%;
+    width: 250px;
+    margin: 0;
+}
+.ratingSection{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.map{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+.clientContent{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+}
+.titleContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 280px;
+    width: 98%;
+}
+.powered{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.span{
+    display: flex;
+}
+.carousel-dots{
+    margin: 0;
+}
+.backgroundMobile{
+    display: none;
+}
+.buttonMobile{
+    display: none;
+}
+.map1{
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 1634px) and (min-width: 1400px) {
+    .mainContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ourContact{
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        align-items: center;  
+        height: 450px;  
+    }
+    .visitDetail{
+        width: 370px;
+        height: 310px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        margin: 0 20px;
+        background: var(--white, #FFF);
+    }
+    .titleBox{
+        font-size: 33px;
+    }
+    .textBox{
+        font-size: 16px;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        width: 70px;
+    }
+    .contact{
+        background: var(--dark-color-6, #F7FAFB);
+        height: 850px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 375px;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .container{
+        right: 60px;
+    }
+    .combineContainer{
+        width: 1200px;
+        height: 600px;
+        flex-shrink: 0;
+        background: var(--white, #FFF);
+        box-shadow: 0px 0px 100px 0px rgba(214, 214, 214, 0.34);
+        margin: 50px 0 0 0;
+        display: flex;
+        justify-content: center;
+        border-radius: 14.372px;
+    }
+    .leftContainer{
+        width: 600px;
+        height: 600px;
+        flex-shrink: 0;
+        border-top-left-radius: 14.372px;
+        border-bottom-left-radius: 14.372px;
+    }
+    iframe{
+        width: 590px;
+        height: 600px;
+    }
+    .rightContainer{
+        width: 100%;
+        background: #FFF;
+        margin-left: 30px;
+        border-radius: 14.372px;
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        /* align-items: flex-start; */
+    }
+    .titleOfContact{
+        color: var(--dark-color-2, #43555A);
+        font-size: 40px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .input{
+        width: 480px;
+        height: 45px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+    .message{
+        width: 480px;
+        height: 50px;
+        text-align: start;
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+    .border{
+        width: 500px;
+        height: 60px;
+        color: var(--dark-color-3, #6E7E83);
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .button{
+        width: 140px;
+        height: 40px;
+    }
+    .textOfButton{
+        font-size: 16px;
+    }
+    .clientStories{
+        height: 630px;
+    }
+    .titleOfCC{
+        font-size: 18px;
+        width: 320px;
+    }
+    .mainTitle{
+        font-size: 16px;
+    }
+    .lastTitle{
+        font-size: 40px;
+    }
+    .textColor{
+        font-size: 13px;
+    }
+    .map{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+    .titleContainer{
+        height: 170px;
+        margin-top: 30px;
+    }
+    .rating{
+        width: 120px;
+    }
+    .clientContent{
+        width: 650px;
+    }
+    .powered{
+        width: 300px;
+    }
+    .titleContainer{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 310px) and (max-width: 330px) {
+    .bgImg{
+        display: none;
+    }
+    .content{
+        display: flex;
+        height: 160px;
+        /* padding: 9px 21px 10px 19px; */
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background: #092A35;
+        margin-top: 70px;
+    }
+    .title{
+        font-size: 20px;
+        margin: 0;
+    }
+    .text{
+        font-size: 9px;
+        line-height: normal;
+        width: 250px;
+    } 
+    .buttonMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 105px;
+        height: 24px;
+        border-radius: 45.012px;
+        border: 1.107px solid #FFF;
+        margin: 10px 0 0 0;
+    }
+    .btnText{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background-color: transparent;
+        border: transparent;
+    }
+    .ourContact{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        height: 364px;  
+    }
+    .visitDetail{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 272px;
+        height: 90px;
+        flex-shrink: 0;
+        border-radius: 6.675px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        height: 37px;
+        width: 37px;
+    }
+    .titleBox{
+        font-size: 15px;
+    }
+    .contact{
+        background: var(--dark-color-6, #F7FAFB);
+        height: 780px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .textBox{
+        font-size: 7px;
+        letter-spacing: 0.15px;
+        text-align: left;
+    }
+    .twoDetail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 150px;
+        
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .combineContainer{
+        width: 300px;
+        height: 690px;
+        flex-shrink: 0;
+        background: var(--white, #FFF);
+        box-shadow: 0px 0px 100px 0px rgba(214, 214, 214, 0.34);
+        margin: 15px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 14.372px;
+    }
+    iframe{
+        background-color: red;
+        width: 280px;
+        height: 310px;
+        border-radius: 10px;
+        border: transparent;
+    }
+    .leftContainer{
+        width: 290px;
+        height: 310px;
+        flex-shrink: 0;
+        border-top-left-radius: 14.372px;
+        border-bottom-left-radius: 14.372px;
+        display: flex;
+        justify-content: center;
+        /* background-color: red; */
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .rightContainer{
+        width: 280px;
+        background: #FFF;
+        margin-left: 10px;
+        border-radius: 14.372px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titleOfContact{
+      display: none;
+    }
+    .input{
+        width: 248px;
+        height: 33px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+        margin-bottom: 10px;
+    }
+    .input::placeholder{
+        font-size: 9px;
+    }
+    .message{
+        width: 248px;
+        height: 55px;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+    .message::placeholder{
+        font-size: 9px;
+    }
+    .border{
+        width: 248px;
+        height: 43px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 3px dashed var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+        border-style: dashed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--dark-color-3, #6E7E83);
+        font-size: 7px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .container{
+        position: relative;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        width: 85px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 45px;
+        border: 2px solid #092A35;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: transparent;
+    }
+    .textOfButton{
+        font-size: 9px;
+    }
+    .SubmitIcon{
+        display: none;
+    }
+    .clientStories{
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+    }
+    .titleContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 125px;
+        width: 98%;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .clientReviewDetail{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .clientContent{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 300px;
+    }
+    .titleOfCC{
+        font-size: 14px;
+        text-align: center;
+    }
+    .textColor{
+        font-size: 8px;
+        width: 50px;
+        margin: 0;
+        text-align: end;
+    }
+    .ratingSection{
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .rating{
+        width: 120px;
+    }
+    .reverseContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .powered{
+        display: none;
+    }
+    .span{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    .map1{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (min-width: 331px) and (max-width: 376px) {
+    .bgImg{
+        display: none;
+    }
+    .content{
+        display: flex;
+        height: 160px;
+        /* padding: 9px 21px 10px 19px; */
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background: #092A35;
+        margin-top: 70px;
+    }
+    .title{
+        font-size: 20px;
+        margin: 0;
+    }
+    .text{
+        font-size: 9px;
+        line-height: normal;
+        width: 250px;
+    } 
+    .buttonMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 105px;
+        height: 24px;
+        border-radius: 45.012px;
+        border: 1.107px solid #FFF;
+        margin: 10px 0 0 0;
+    }
+    .btnText{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background-color: transparent;
+        border: transparent;
+    }
+    .ourContact{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        height: 364px;  
+    }
+    .visitDetail{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 272px;
+        height: 90px;
+        flex-shrink: 0;
+        border-radius: 6.675px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        height: 37px;
+        width: 37px;
+    }
+    .titleBox{
+        font-size: 15px;
+    }
+    .contact{
+        background: var(--dark-color-6, #F7FAFB);
+        height: 780px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .textBox{
+        font-size: 7px;
+        letter-spacing: 0.15px;
+        text-align: left;
+    }
+    .twoDetail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 150px;
+        
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .combineContainer{
+        width: 300px;
+        height: 690px;
+        flex-shrink: 0;
+        background: var(--white, #FFF);
+        box-shadow: 0px 0px 100px 0px rgba(214, 214, 214, 0.34);
+        margin: 15px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 14.372px;
+    }
+    iframe{
+        background-color: red;
+        width: 280px;
+        height: 310px;
+        border-radius: 10px;
+        border: transparent;
+    }
+    .leftContainer{
+        width: 290px;
+        height: 310px;
+        flex-shrink: 0;
+        border-top-left-radius: 14.372px;
+        border-bottom-left-radius: 14.372px;
+        display: flex;
+        justify-content: center;
+        /* background-color: red; */
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .rightContainer{
+        width: 280px;
+        background: #FFF;
+        margin-left: 10px;
+        border-radius: 14.372px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titleOfContact{
+      display: none;
+    }
+    .input{
+        width: 248px;
+        height: 33px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+        margin-bottom: 10px;
+    }
+    .input::placeholder{
+        font-size: 9px;
+    }
+    .message{
+        width: 248px;
+        height: 55px;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+    .message::placeholder{
+        font-size: 9px;
+    }
+    .border{
+        width: 248px;
+        height: 43px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 3px dashed var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+        border-style: dashed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--dark-color-3, #6E7E83);
+        font-size: 7px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .container{
+        position: relative;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        width: 85px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 45px;
+        border: 2px solid #092A35;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: transparent;
+    }
+    .textOfButton{
+        font-size: 9px;
+    }
+    .SubmitIcon{
+        display: none;
+    }
+    .clientStories{
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+    }
+    .titleContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 125px;
+        width: 98%;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .clientReviewDetail{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .clientContent{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 300px;
+    }
+    .titleOfCC{
+        font-size: 14px;
+        text-align: center;
+    }
+    .textColor{
+        font-size: 8px;
+        width: 50px;
+        margin: 0;
+        text-align: end;
+    }
+    .ratingSection{
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .rating{
+        width: 120px;
+    }
+    .reverseContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .powered{
+        display: none;
+    }
+    .span{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    .map1{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+    .bgImg{
+        display: none;
+    }
+    .content{
+        display: flex;
+        height: 160px;
+        /* padding: 9px 21px 10px 19px; */
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background: #092A35;
+        margin-top: 70px;
+    }
+    .title{
+        font-size: 20px;
+        margin: 0;
+    }
+    .text{
+        font-size: 9px;
+        line-height: normal;
+        width: 250px;
+    } 
+    .buttonMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 105px;
+        height: 24px;
+        border-radius: 45.012px;
+        border: 1.107px solid #FFF;
+        margin: 10px 0 0 0;
+    }
+    .btnText{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background-color: transparent;
+        border: transparent;
+    }
+    .ourContact{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        height: 364px;  
+    }
+    .visitDetail{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 272px;
+        height: 90px;
+        flex-shrink: 0;
+        border-radius: 6.675px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        height: 37px;
+        width: 37px;
+    }
+    .titleBox{
+        font-size: 15px;
+    }
+    .contact{
+        background: var(--dark-color-6, #F7FAFB);
+        height: 780px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .textBox{
+        font-size: 7px;
+        letter-spacing: 0.15px;
+        text-align: left;
+    }
+    .twoDetail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 150px;
+        
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .combineContainer{
+        width: 300px;
+        height: 690px;
+        flex-shrink: 0;
+        background: var(--white, #FFF);
+        box-shadow: 0px 0px 100px 0px rgba(214, 214, 214, 0.34);
+        margin: 15px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 14.372px;
+    }
+    iframe{
+        background-color: red;
+        width: 280px;
+        height: 310px;
+        border-radius: 10px;
+        border: transparent;
+    }
+    .leftContainer{
+        width: 290px;
+        height: 310px;
+        flex-shrink: 0;
+        border-top-left-radius: 14.372px;
+        border-bottom-left-radius: 14.372px;
+        display: flex;
+        justify-content: center;
+        /* background-color: red; */
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .rightContainer{
+        width: 280px;
+        background: #FFF;
+        margin-left: 10px;
+        border-radius: 14.372px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titleOfContact{
+      display: none;
+    }
+    .input{
+        width: 248px;
+        height: 33px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+        margin-bottom: 10px;
+    }
+    .input::placeholder{
+        font-size: 9px;
+    }
+    .message{
+        width: 248px;
+        height: 55px;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+    .message::placeholder{
+        font-size: 9px;
+    }
+    .border{
+        width: 248px;
+        height: 43px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 3px dashed var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+        border-style: dashed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--dark-color-3, #6E7E83);
+        font-size: 7px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .container{
+        position: relative;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        width: 85px;
+        height: 28px;
+        flex-shrink: 0;
+        border-radius: 45px;
+        border: 2px solid #092A35;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: transparent;
+    }
+    .textOfButton{
+        font-size: 9px;
+    }
+    .SubmitIcon{
+        display: none;
+    }
+    .clientStories{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .titleContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 125px;
+        width: 98%;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .clientReviewDetail{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .clientContent{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 300px;
+    }
+    .titleOfCC{
+        font-size: 14px;
+        text-align: center;
+    }
+    .textColor{
+        font-size: 8px;
+        width: 50px;
+        margin: 0;
+        text-align: end;
+    }
+    .ratingSection{
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .rating{
+        width: 120px;
+    }
+    .reverseContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .powered{
+        display: none;
+    }
+    .span{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    .map1{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+    .bgImg{
+        display: none;
+    }
+    .content{
+        display: flex;
+        height: 200px;
+        /* padding: 9px 21px 10px 19px; */
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background: #092A35;
+        margin-top: 70px;
+    }
+    .title{
+        font-size: 23px;
+        margin: 0;
+    }
+    .text{
+        font-size: 9px;
+        line-height: normal;
+        width: 300px;
+    } 
+    .buttonMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 105px;
+        height: 24px;
+        border-radius: 45.012px;
+        border: 1.107px solid #FFF;
+        margin: 10px 0 0 0;
+    }
+    .btnText{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background-color: transparent;
+        border: transparent;
+    }
+    .ourContact{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        height: 430px;  
+    }
+    .visitDetail{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 450px;
+        height: 110px;
+        flex-shrink: 0;
+        border-radius: 6.675px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        height: 57px;
+        width: 57px;
+    }
+    .titleBox{
+        font-size: 20px;
+    }
+    .contact{
+        background: var(--dark-color-6, #F7FAFB);
+        height: 880px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .textBox{
+        font-size: 10px;
+        letter-spacing: 0.15px;
+        text-align: left;
+        width: 400px;
+    }
+    .twoDetail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 250px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .combineContainer{
+        width: 600px;
+        height: 730px;
+        flex-shrink: 0;
+        background: var(--white, #FFF);
+        box-shadow: 0px 0px 100px 0px rgba(214, 214, 214, 0.34);
+        margin: 15px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 14.372px;
+    }
+    .mapFrame{
+        /* background-color: red; */
+        width: 500px;
+        height: 310px;
+        border-radius: 10px;
+        border: transparent;
+    }
+    .leftContainer{
+        width: 550px;
+        height: 310px;
+        flex-shrink: 0;
+        border-top-left-radius: 14.372px;
+        border-bottom-left-radius: 14.372px;
+        display: flex;
+        justify-content: center;
+        /* background-color: red; */
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .rightContainer{
+        width: 280px;
+        background: #FFF;
+        margin-left: 10px;
+        border-radius: 14.372px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titleOfContact{
+      display: none;
+    }
+    .input{
+        width: 470px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+        margin-bottom: 10px;
+    }
+    .input::placeholder{
+        font-size: 11px;
+    }
+    .message{
+        width: 470px;
+        height: 65px;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+    .message::placeholder{
+        font-size: 11px;
+    }
+    .border{
+        width: 470px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 3px dashed var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+        border-style: dashed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--dark-color-3, #6E7E83);
+        font-size: 10px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .container{
+        position: relative;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        width: 130px;
+        height: 37px;
+        flex-shrink: 0;
+        border-radius: 45px;
+        border: 2px solid #092A35;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: transparent;
+    }
+    .textOfButton{
+        font-size: 11px;
+    }
+    .SubmitIcon{
+        display: none;
+    }
+    .clientStories{
+        height: 530px;
+        display: flex;
+        flex-direction: column;
+    }
+    .titleContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 125px;
+        width: 98%;
+    }
+    .mainTitle{
+        font-size: 12px;
+    }
+    .lastTitle{
+        font-size: 21px;
+    }
+    .clientReviewDetail{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .clientContent{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 400px;
+    }
+    .titleOfCC{
+        font-size: 17px;
+        text-align: center;
+    }
+    .textColor{
+        font-size: 10px;
+        width: 100px;
+        margin: 0;
+        text-align: end;
+    }
+    .ratingSection{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+    .rating{
+        width: 120px;
+    }
+    .reverseContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .powered{
+        display: none;
+    }
+    .span{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    .map1{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+    .bgImg{
+        display: none;
+    }
+    .content{
+        display: flex;
+        height: 200px;
+        /* padding: 9px 21px 10px 19px; */
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background: #092A35;
+        margin-top: 70px;
+    }
+    .title{
+        font-size: 23px;
+        margin: 0;
+    }
+    .text{
+        font-size: 9px;
+        line-height: normal;
+        width: 300px;
+    } 
+    .buttonMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 105px;
+        height: 24px;
+        border-radius: 45.012px;
+        border: 1.107px solid #FFF;
+        margin: 10px 0 0 0;
+    }
+    .btnText{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        background-color: transparent;
+        border: transparent;
+    }
+    .ourContact{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+        height: 430px;  
+    }
+    .visitDetail{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 450px;
+        height: 110px;
+        flex-shrink: 0;
+        border-radius: 6.675px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        height: 57px;
+        width: 57px;
+    }
+    .titleBox{
+        font-size: 20px;
+    }
+    .contact{
+        background: var(--dark-color-6, #F7FAFB);
+        height: 880px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .textBox{
+        font-size: 10px;
+        letter-spacing: 0.15px;
+        text-align: left;
+        width: 400px;
+    }
+    .twoDetail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 250px;
+    }
+    .mainTitle{
+        font-size: 8px;
+    }
+    .lastTitle{
+        font-size: 18px;
+    }
+    .combineContainer{
+        width: 600px;
+        height: 730px;
+        flex-shrink: 0;
+        background: var(--white, #FFF);
+        box-shadow: 0px 0px 100px 0px rgba(214, 214, 214, 0.34);
+        margin: 15px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 14.372px;
+    }
+    iframe{
+        /* background-color: red; */
+        width: 500px;
+        height: 310px;
+        border-radius: 10px;
+        border: transparent;
+    }
+    .leftContainer{
+        width: 550px;
+        height: 310px;
+        flex-shrink: 0;
+        border-top-left-radius: 14.372px;
+        border-bottom-left-radius: 14.372px;
+        display: flex;
+        justify-content: center;
+        /* background-color: red; */
+        align-self: center;
+        margin-bottom: 20px;
+    }
+    .rightContainer{
+        width: 280px;
+        background: #FFF;
+        margin-left: 10px;
+        border-radius: 14.372px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titleOfContact{
+      display: none;
+    }
+    .input{
+        width: 470px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 2px solid var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+        margin-bottom: 10px;
+    }
+    .input::placeholder{
+        font-size: 11px;
+    }
+    .message{
+        width: 470px;
+        height: 65px;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+    .message::placeholder{
+        font-size: 11px;
+    }
+    .border{
+        width: 470px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border: 3px dashed var(--dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+        border-style: dashed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--dark-color-3, #6E7E83);
+        font-size: 10px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .container{
+        position: relative;
+        right: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button{
+        width: 130px;
+        height: 37px;
+        flex-shrink: 0;
+        border-radius: 45px;
+        border: 2px solid #092A35;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: transparent;
+    }
+    .textOfButton{
+        font-size: 11px;
+    }
+    .SubmitIcon{
+        display: none;
+    }
+    .clientStories{
+        height: 530px;
+        display: flex;
+        flex-direction: column;
+    }
+    .titleContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 125px;
+        width: 98%;
+    }
+    .mainTitle{
+        font-size: 12px;
+    }
+    .lastTitle{
+        font-size: 21px;
+    }
+    .clientReviewDetail{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .clientContent{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 400px;
+    }
+    .titleOfCC{
+        font-size: 17px;
+        text-align: center;
+    }
+    .textColor{
+        font-size: 10px;
+        width: 100px;
+        margin: 0;
+        text-align: end;
+    }
+    .ratingSection{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+    .rating{
+        width: 120px;
+    }
+    .reverseContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .powered{
+        display: none;
+    }
+    .span{
+        display: none;
+    }
+    .map{
+        display: none;
+    }
+    .map1{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+}

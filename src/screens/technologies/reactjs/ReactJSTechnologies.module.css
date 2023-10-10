@@ -1,0 +1,1170 @@
+.mainContainer{
+    overflow-x: hidden;
+    overflow-y: hidden; 
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    height: 800px;
+    align-items: center;
+    margin-top: 100px;
+}
+.heading{
+    color: var(--dark-color, #092A35);
+    font-family: Poppins;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 112%;
+    letter-spacing: 1.3px;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.leftContent{
+    height: 700px;
+}
+.desc{
+    color: var(--dark-color-3, #6E7E83);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.45px;
+    width: 750px;
+    margin: 20px 0;
+}
+.button{
+    width: 382px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: 2px solid #092A35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textOfButton{
+    color: #092A35;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.icon{
+    margin-left: 10px;
+}
+.mobileAppContent{
+    background-color: #F7FAFB;
+    position: relative;
+    top: 40px;
+    height: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.appContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainTitle{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #6E7E83;
+    margin: 0;
+}
+.middleTitle{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;   
+    font-size: 46px;
+    line-height: 69px;
+    color: #092A35;
+    margin: 0 0 20px 0;
+}
+.lastTitle{
+    font-family: poppins-light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 69px;
+    margin: 0 0 0 15px;
+    color: #092A35;
+}
+.bothTitle{
+    display: flex;
+}
+.headingOfplatform{
+    position: relative;
+    /* top: 70px; */
+    background: #F7FAFB;
+    width: 100%;
+    height: 800px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.mainTitleOfPlatform{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #C0C0C9;
+    text-align: center;
+}
+.centerTitleOfPlatform{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 126%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #233D63;
+    margin: 0;
+}
+.lastTitleOfPlatform{
+    font-family: Poppins-light;
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #233D63;
+    margin: 0;
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+.platforms{
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #43555A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.platforms li{
+    list-style: none;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    /* font-family: Inter; */
+    /* font-size: 18px; */
+}
+.offerContainer{
+  display: flex;
+  justify-content: center;
+}
+.OfferAngularJs{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+.mobileApps{
+    background: #F7FAFB;
+    height: 847px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.schedule{
+    background: #F7FAFB;
+    height: 997px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.schedule .titlesOfSchedule{
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.mainTitleOfSchedule{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #6E7E83;
+    margin: 0;
+}
+.middleTitleOfSchedule{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;   
+    font-size: 46px;
+    line-height: 69px;
+    color: #092A35;
+    margin: 0;
+}
+.lastTitleOfSchedule{
+    font-family: poppins-light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 69px;
+    margin: 0 0 0 15px;
+    color: #092A35;
+}
+.ClientReview{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+.OfferReactJsMobile{
+    display: none;
+}
+.mobileApps .titles .mainTitle{
+    margin-top: 80px;
+}
+.ClientReviewMobileReactTech{
+    display: none;
+}
+
+
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1634px) {
+    .mainContainer{
+        width: 100%;
+        /* background-color: aquamarine; */
+    }
+    .content{
+        margin-top: 100px;
+        height: 550px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .leftContent{
+        height: 500px;
+    }
+    .heading{
+        font-size: 55px;
+    }
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 40px;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .desc{
+        font-size: 15px;
+    }
+    .button{
+        width: 330px;
+        height: 40px;
+    }
+    .textOfButton{
+        font-size: 15px;
+    }
+    .icon{
+        margin-left: 2px;
+    }
+    .background{
+        height: 550px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-self: flex-end;
+    }
+    .OfferAngularJs{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .ClientReview{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 330px) {
+    .backgroundImage{
+        display: none;
+    }
+    .content{
+        background-color: #092A35;
+        height: 198px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .leftContent{
+        height: 300px;
+    }
+    .heading{
+        color: white;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 112%;
+        letter-spacing: 1.1px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .background{
+        display: none;
+    }
+    .desc{
+        color: var(--dark-color-5, #D8E2E4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        width: 277px;
+        margin: 20px 0;
+    }
+    .button{
+        width: 170px;
+        height: 35px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .textOfButton{
+        font-size: 8px;
+        color: white;
+    }
+    .icon{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 40px;
+        height: 880px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+    }
+    .middleTitle{ 
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 5px 0;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 7px;
+    }
+    .headingOfplatform{
+        position: relative;
+        top: 70px;
+        background: #F7FAFB;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .mainTitleOfPlatform{
+        font-size: 8px;
+        line-height: normal;
+        margin-top: 10px;
+    }
+    .centerTitleOfPlatform{
+        font-size: 12px;
+    }
+    .lastTitleOfPlatform{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .main1{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0;
+    }
+    .platforms{
+        font-size: 12px;
+        line-height: 22px;
+        
+        overflow: hidden;
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+    }
+    .OfferReactJs{
+        display: none;
+    }
+    .OfferReactJsMobile{
+        display: flex;
+    }
+    .mobileApps{
+        height: 420px;
+        margin-top: 20px;
+    }
+    .mobileApps .titles .mainTitle{
+        margin-top: 20px;
+    }
+    .reviewSection{
+        display: none;
+    }
+    .schedule{
+        background: #F7FAFB;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .schedule .titlesOfSchedule{
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mainTitleOfSchedule{
+        font-size: 8px;
+        line-height: 11px;
+    }
+    .middleTitleOfSchedule{
+        font-size: 18px;
+        line-height: 126%;
+        text-align: center;
+    }
+    .lastTitleOfSchedule{
+        font-family: poppins-light;
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 7px;
+        text-align: center;
+    }
+    .ClientReview{
+        display: none;
+    }
+    .ClientReviewMobileReactTech{
+        display: flex;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 331px) and (max-width: 376px) {
+    .backgroundImage{
+        display: none;
+    }
+    .content{
+        background-color: #092A35;
+        height: 198px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .leftContent{
+        height: 300px;
+    }
+    .heading{
+        color: white;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 112%;
+        letter-spacing: 1.1px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .background{
+        display: none;
+    }
+    .desc{
+        color: var(--dark-color-5, #D8E2E4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        width: 277px;
+        margin: 20px 0;
+    }
+    .button{
+        width: 170px;
+        height: 35px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .textOfButton{
+        font-size: 8px;
+        color: white;
+    }
+    .icon{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 40px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+    }
+    .middleTitle{ 
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 5px 0;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 7px;
+    }
+    .headingOfplatform{
+        position: relative;
+        top: 70px;
+        background: #F7FAFB;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .mainTitleOfPlatform{
+        font-size: 8px;
+        line-height: normal;
+        margin-top: 10px;
+    }
+    .centerTitleOfPlatform{
+        font-size: 12px;
+    }
+    .lastTitleOfPlatform{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .main1{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0;
+    }
+    .platforms{
+        font-size: 12px;
+        line-height: 22px;
+        
+        overflow: hidden;
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+    }
+    .OfferReactJs{
+        display: none;
+    }
+    .OfferReactJsMobile{
+        display: flex;
+    }
+    .mobileApps{
+        height: 420px;
+        margin-top: 20px;
+    }
+    .mobileApps .titles .mainTitle{
+        margin-top: 20px;
+    }
+    .reviewSection{
+        display: none;
+    }
+    .schedule{
+        background: #F7FAFB;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .schedule .titlesOfSchedule{
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mainTitleOfSchedule{
+        font-size: 8px;
+        line-height: 11px;
+    }
+    .middleTitleOfSchedule{
+        font-size: 18px;
+        line-height: 126%;
+        text-align: center;
+    }
+    .lastTitleOfSchedule{
+        font-family: poppins-light;
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 7px;
+        text-align: center;
+    }
+    .ClientReview{
+        display: none;
+    }
+    .ClientReviewMobileReactTech{
+        display: flex;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+    .backgroundImage{
+        display: none;
+    }
+    .content{
+        background-color: #092A35;
+        height: 198px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .leftContent{
+        height: 300px;
+    }
+    .heading{
+        color: white;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 112%;
+        letter-spacing: 1.1px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .background{
+        display: none;
+    }
+    .desc{
+        color: var(--dark-color-5, #D8E2E4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        width: 277px;
+        margin: 20px 0;
+    }
+    .button{
+        width: 170px;
+        height: 35px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .textOfButton{
+        font-size: 8px;
+        color: white;
+    }
+    .icon{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 40px;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+    }
+    .middleTitle{ 
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 5px 0;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 7px;
+    }
+    .headingOfplatform{
+        position: relative;
+        top: 70px;
+        background: #F7FAFB;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .mainTitleOfPlatform{
+        font-size: 8px;
+        line-height: normal;
+        margin-top: 10px;
+    }
+    .centerTitleOfPlatform{
+        font-size: 12px;
+    }
+    .lastTitleOfPlatform{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .main1{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0;
+    }
+    .platforms{
+        font-size: 12px;
+        line-height: 22px;
+        
+        overflow: hidden;
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+    }
+    .OfferReactJs{
+        display: none;
+    }
+    .OfferReactJsMobile{
+        display: flex;
+    }
+    .mobileApps{
+        height: 420px;
+        margin-top: 20px;
+    }
+    .mobileApps .titles .mainTitle{
+        margin-top: 20px;
+    }
+    .reviewSection{
+        display: none;
+    }
+    .schedule{
+        background: #F7FAFB;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .schedule .titlesOfSchedule{
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mainTitleOfSchedule{
+        font-size: 8px;
+        line-height: 11px;
+    }
+    .middleTitleOfSchedule{
+        font-size: 18px;
+        line-height: 126%;
+        text-align: center;
+    }
+    .lastTitleOfSchedule{
+        font-family: poppins-light;
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 7px;
+        text-align: center;
+    }
+    .ClientReview{
+        display: none;
+    }
+    .ClientReviewMobileReactTech{
+        display: flex;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+    .backgroundImage{
+        display: none;
+    }
+    .content{
+        background-color: #092A35;
+        height: 198px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .leftContent{
+        height: 300px;
+    }
+    .heading{
+        color: white;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 112%;
+        letter-spacing: 1.1px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .offerContainer{
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+    }
+    .background{
+        display: none;
+    }
+    .desc{
+        color: var(--dark-color-5, #D8E2E4);
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        width: 277px;
+        margin: 20px 0;
+    }
+    .button{
+        width: 170px;
+        height: 35px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .textOfButton{
+        font-size: 8px;
+        color: white;
+    }
+    .icon{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 40px;
+        height: 1150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainTitle{
+        font-size: 8px;
+        line-height: normal;
+    }
+    .middleTitle{ 
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 5px 0;
+    }
+    .lastTitle{
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 7px;
+    }
+    .headingOfplatform{
+        position: relative;
+        top: 40px;
+        background: #F7FAFB;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .mainTitleOfPlatform{
+        font-size: 8px;
+        line-height: normal;
+        margin-top: 10px;
+    }
+    .centerTitleOfPlatform{
+        font-size: 12px;
+    }
+    .lastTitleOfPlatform{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .main1{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0;
+    }
+    .platforms{
+        font-size: 12px;
+        line-height: 22px;
+        
+        overflow: hidden;
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+    }
+    .OfferReactJs{
+        display: flex;
+    }
+    .OfferReactJsMobile{
+        display: none;
+    }
+    .mobileApps{
+        height: 420px;
+        margin-top: 20px;
+    }
+    .mobileApps .titles .mainTitle{
+        margin-top: 20px;
+    }
+    .reviewSection{
+        display: none;
+    }
+    .schedule{
+        background: #F7FAFB;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .schedule .titlesOfSchedule{
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mainTitleOfSchedule{
+        font-size: 8px;
+        line-height: 11px;
+    }
+    .middleTitleOfSchedule{
+        font-size: 18px;
+        line-height: 126%;
+        text-align: center;
+    }
+    .lastTitleOfSchedule{
+        font-family: poppins-light;
+        font-size: 18px;
+        line-height: 126%;
+        margin: 0 0 0 7px;
+        text-align: center;
+    }
+    .ClientReview{
+        display: flex;
+    }
+    .ClientReviewMobileReactTech{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+    .mainContainer{
+        width: 100%;
+        /* background-color: aquamarine; */
+    }
+    .content{
+        margin-top: 100px;
+        height: 386px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .leftContent{
+        height: 500px;
+    }
+    .heading{
+        font-size: 35px;
+    }
+    .mobileAppContent{
+        background-color: #F7FAFB;
+        position: relative;
+        top: 40px;
+        height: 1698px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .desc{
+        font-size: 15px;
+        width: 450px;
+    }
+    .schedule{
+        height: 500px;
+    }
+    .schedule .titlesOfSchedule{
+        height: 144px;
+    }
+    .button{
+        width: 330px;
+        height: 40px;
+    }
+    .mobileApps{
+        background: #F7FAFB;
+        height: 385px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .middleTitle{  
+        font-size: 30px;
+        line-height: 45px;
+        margin: 0 0 0px 0;
+    }
+    .mobileApps .titles .mainTitle{
+        margin-top: 0;
+    }
+    .mainTitle{
+        font-size: 9px;
+        line-height: 18px;
+    }
+    .lastTitle{
+        font-size: 30px;
+        line-height: 45px;
+        margin: 0 0 0 5px;
+    }
+    .textOfButton{
+        font-size: 15px;
+    }
+    .icon{
+        margin-left: 2px;
+    }
+    .background{
+        height: 550px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-self: flex-end;
+    }
+    .OfferAngularJs{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .ClientReview{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .mainTitleOfSchedule{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .middleTitleOfSchedule{ 
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .lastTitleOfSchedule{
+        font-size: 30px;
+        line-height: 45px;
+        margin: 0 0 0 10px;
+        color: #092A35;
+    }
+}

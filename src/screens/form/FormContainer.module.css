@@ -1,0 +1,453 @@
+.form{
+    width: 1353px;
+    height: 464px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 25px 0px rgba(195, 195, 195, 0.25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 378.991px;
+    height: 64px;
+    border-radius: 10px;
+    border: 2px solid #D8E2E4;
+    background: #FFF;
+    font-size: 18px;
+    font-family: Inter;
+    padding: 0 0 0 20px;
+}
+textarea {
+    border-radius: 10px;
+    border: 2px solid #D8E2E4;
+    background: #FFF;
+    font-size: 18px;
+    font-family: Inter;
+    padding: 20px 0 0 20px;
+    resize: none;
+}
+input::placeholder{
+    color: #6E7E83;
+    text-transform: capitalize;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 1235px;
+}
+.button{
+    width: 236px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    border: 2px solid #092A35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #092A35;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.messageContainer{
+    width: 1213px;
+    height: 118px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid var(--dark-color-5, #D8E2E4);
+    background: var(--white, #FFF);
+}
+.container{
+    width: 1213px;
+    display: flex;
+    justify-content: flex-end;
+}
+.messageContainer::placeholder{
+    position: relative;
+    bottom: 20px;
+}
+
+
+@media only screen and (min-width: 310px) and (max-width: 321px) {
+    input{
+        width: 378.991px;
+        height: 64px;
+        border-radius: 10px;
+        border: 2px solid #D8E2E4;
+        background: #FFF;
+        font-size: 18px;
+        font-family: Inter;
+        padding: 0 0 0 10px;
+    }
+    input:last-child{
+        padding: 0 0 0 0px;
+    }
+    textarea {
+        border-radius: 10px;
+        border: 2px solid #D8E2E4;
+        background: #FFF;
+        font-size: 18px;
+        font-family: Inter;
+        padding: 20px 0 0 10px;
+        resize: none;
+    }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 330px) {
+    .form{
+        width: 275px;
+        height: 273px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    input{
+        width: 248px;
+        height: 33px;
+        border-radius: 5px;
+        border: 1px solid #D8E2E4;
+        background: #FFF;
+        font-size: 9px;
+        padding: 0 0 0 10px;
+        margin-bottom: 10px;
+    }
+    input:last-child{
+        padding: 0 0 0 10px;
+    }
+    textarea {
+        border-radius: 10px;
+        border: 2px solid #D8E2E4;
+        background: #FFF;
+        font-size: 18px;
+        font-family: Inter;
+        padding: 20px 0 0 20px;
+        resize: none;
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 272px;
+        align-items: center;
+    }
+    .button{
+        width: 85px;
+        height: 28px;
+        border-radius: 45.012px;
+        border: 1.107px solid var(--dark-color, #092A35);
+    }
+    .text{
+        font-size: 9px;
+    }
+    .messageContainer{
+        width: 248px;
+        height: 55px;
+        border-radius: 5px;
+        border: 1px solid var(--Dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+    }
+    .container{
+        width: 234px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .messageContainer::placeholder{
+        position: relative;
+        bottom: 10px;
+    }
+    .icon{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 331px) and (max-width: 376px) {
+    .form{
+        width: 275px;
+        height: 273px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    input{
+        width: 248px;
+        height: 33px;
+        border-radius: 5px;
+        border: 1px solid #D8E2E4;
+        background: #FFF;
+        font-size: 9px;
+        padding: 0 0 0 10px;
+        margin-bottom: 10px;
+    }
+    input:last-child{
+        padding: 0 0 0 10px;
+    }
+    textarea {
+        border-radius: 10px;
+        border: 2px solid #D8E2E4;
+        background: #FFF;
+        font-size: 18px;
+        font-family: Inter;
+        padding: 20px 0 0 20px;
+        resize: none;
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 272px;
+        align-items: center;
+    }
+    .button{
+        width: 85px;
+        height: 28px;
+        border-radius: 45.012px;
+        border: 1.107px solid var(--dark-color, #092A35);
+    }
+    .text{
+        font-size: 9px;
+    }
+    .messageContainer{
+        width: 248px;
+        height: 55px;
+        border-radius: 5px;
+        border: 1px solid var(--Dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+    }
+    .container{
+        width: 234px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .messageContainer::placeholder{
+        position: relative;
+        bottom: 10px;
+    }
+    .icon{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+    .form{
+        width: 275px;
+        height: 273px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    input{
+        width: 248px;
+        height: 33px;
+        border-radius: 5px;
+        border: 1px solid #D8E2E4;
+        background: #FFF;
+        font-size: 9px;
+        padding: 0 0 0 10px;
+        margin-bottom: 10px;
+    }
+    input:last-child{
+        padding: 0 0 0 10px;
+    }
+    textarea {
+        border-radius: 10px;
+        border: 2px solid #D8E2E4;
+        background: #FFF;
+        font-size: 18px;
+        font-family: Inter;
+        padding: 20px 0 0 20px;
+        resize: none;
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 272px;
+        align-items: center;
+    }
+    .button{
+        width: 85px;
+        height: 28px;
+        border-radius: 45.012px;
+        border: 1.107px solid var(--dark-color, #092A35);
+    }
+    .text{
+        font-size: 9px;
+    }
+    .messageContainer{
+        width: 248px;
+        height: 55px;
+        border-radius: 5px;
+        border: 1px solid var(--Dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+    }
+    .container{
+        width: 234px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .messageContainer::placeholder{
+        position: relative;
+        bottom: 10px;
+    }
+    .icon{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+    .form{
+        width: 560px;
+        height: 280px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    input{
+        width: 500px;
+        height: 34px;
+        border-radius: 5px;
+        border: 1px solid #D8E2E4;
+        background: #FFF;
+        font-size: 9px;
+        padding: 0 0 0 10px;
+        margin-bottom: 10px;
+    }
+    input:last-child{
+        padding: 0 0 0 10px;
+    }
+    textarea {
+        border-radius: 10px;
+        border: 2px solid #D8E2E4;
+        background: #FFF;
+        font-size: 18px;
+        font-family: Inter;
+        padding: 20px 0 0 20px;
+        resize: none;
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 272px;
+        align-items: center;
+    }
+    .button{
+        width: 85px;
+        height: 28px;
+        border-radius: 45.012px;
+        border: 1.107px solid #092A35;
+    }
+    .text{
+        font-size: 9px;
+    }
+    .messageContainer{
+        width: 500px;
+        height: 57px;
+        border-radius: 5px;
+        border: 1px solid var(--Dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+    }
+    .container{
+        width: 495px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .messageContainer::placeholder{
+        position: relative;
+        bottom: 10px;
+    }
+    .icon{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+    .form{
+        width: 560px;
+        height: 280px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    input{
+        width: 500px;
+        height: 34px;
+        border-radius: 5px;
+        border: 1px solid #D8E2E4;
+        background: #FFF;
+        font-size: 9px;
+        padding: 0 0 0 10px;
+        margin-bottom: 10px;
+    }
+    input:last-child{
+        padding: 0 0 0 10px;
+    }
+    textarea {
+        border-radius: 10px;
+        border: 2px solid #D8E2E4;
+        background: #FFF;
+        font-size: 18px;
+        font-family: Inter;
+        padding: 20px 0 0 20px;
+        resize: none;
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 272px;
+        align-items: center;
+    }
+    .button{
+        width: 85px;
+        height: 28px;
+        border-radius: 45.012px;
+        border: 1.107px solid #092A35;
+    }
+    .text{
+        font-size: 9px;
+    }
+    .messageContainer{
+        width: 500px;
+        height: 57px;
+        border-radius: 5px;
+        border: 1px solid var(--Dark-color-5, #D8E2E4);
+        background: var(--white, #FFF);
+    }
+    .container{
+        width: 495px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .messageContainer::placeholder{
+        position: relative;
+        bottom: 10px;
+    }
+    .icon{
+        display: none;
+    }
+}

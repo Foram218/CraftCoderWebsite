@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 770px;
+height: 569.614px;
+}
+.title{
+    color: var(--dark-color, #092A35);
+    text-align: left;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 20px;
+}
+.text{
+    color: var(--Dark-color-3, #6E7E83);
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 20px;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,839 @@
+.main{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.footer{
+    /* height: 393px; */
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F4F8F9;
+}
+
+                    /* <------------------------------- First Column --------------------------------------> */
+  
+.col1{
+    display: flow-root;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.logoFooter{
+    width: 80%;
+}
+.review{
+    border-radius: 0;
+    display: flex;
+    margin-top: 10px;
+}
+.text{
+    color: var(--dark-color, #092A35);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 5px 0;
+}
+.button{
+    height: 32px;
+    width: 155px;
+    background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+    border-radius: 39px;
+    border: none;
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* .button{
+    background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+    border-radius: 39px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+} */
+
+.button:hover{
+    height: 32px;
+    width: 155px;
+    border-radius: 39px;
+
+    cursor: pointer;
+    background: transparent;
+    color: #233D63;
+    border: 2px solid #233D63;
+}
+
+/* .button:hover{
+    cursor: pointer;
+    background: transparent;
+    color: #233D63;
+    border: 2px solid #233D63;
+} */
+
+
+                    /* <------------------------------- Second Column --------------------------------------> */
+
+.col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+.title{
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #092A35;
+    margin: 15px 0 0 0;
+}
+.footerDropdown{
+    display: none;
+}
+.heading{
+    display: flex;
+}
+.border{
+    margin: 10px 0;
+    /* position: relative; */
+    width: 37%;
+}
+.subContent{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6E7E83;
+    text-align: left;
+    padding: 0;
+    background-color: #F4F8F9;
+}
+.subContent li{
+    list-style: none;
+    cursor: pointer;
+    background-color: #F4F8F9;
+}
+.subContent li:hover{
+    cursor: pointer;
+    background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+     /* <------------------------------- Third Column --------------------------------------> */
+  
+
+.thirdContainer{
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+}
+.secondContent{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6E7E83;
+    text-align: left;
+    padding: 0;
+    background-color: #F4F8F9;
+}
+.secondContent li{
+    list-style: none;
+    cursor: pointer;
+    background-color: #F4F8F9;
+}
+.secondContent li:hover{
+    cursor: pointer;
+    background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+     /* <------------------------------- Fourth Column --------------------------------------> */
+
+
+.address{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6E7E83;
+}
+.address:hover{
+    cursor: pointer;
+    background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.mail{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    color: #6E7E83;
+    margin: 10px 0;
+}
+.mail:hover{
+    cursor: pointer;
+    background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.mobileNo{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    color: #6E7E83;
+    margin-bottom: 10px;
+}
+.mobileNo:hover{
+    cursor: pointer;
+    background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.icon{
+    margin: 0;
+    width: 40px;
+}
+.icons{
+    margin: 0 0 0 10px;
+    width: 40px;
+}
+.allIcon{
+    display: flex;
+}
+.endBorder{
+    border: 1px solid #D8E2E4;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.endText{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #43555A;
+    position: relative;
+    /* top: 20px; */
+}
+.end{
+    width: 75%;
+    display: flex;
+    justify-content:space-between;
+    align-self: center;
+}
+.rightEnd{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.rightText{
+    position: relative;
+    /* top: 20px; */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #43555A;
+}
+.vl{
+    border: 1px solid #D8E2E4;
+    display: flex;
+    align-self: center;
+    height: 30px;
+}
+
+
+@media only screen and (max-width: 1634px) and (min-width: 1400px) {
+
+    .subContent{
+        /* font-family: 'Inter'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 35px;
+        color: #6E7E83;
+        text-align: left;
+        padding: 0;
+        background-color: #F4F8F9;
+    }
+    .secondContent{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 35px;
+        color: #6E7E83;
+        text-align: left;
+        padding: 0;
+        background-color: #F4F8F9;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1399px) {
+    .subContent{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .secondContent{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .logoFooter{
+        width: 80%;
+    }
+    .review{
+        border-radius: 0;
+        display: flex;
+        height: 60px;
+        width: 100px;
+        margin-top: 0px;
+    }
+    .text{
+        font-size: 9px;
+        line-height: 15px;
+        margin: 5px 0;
+    }
+    .button{
+        height: 22px;
+        width: 90px;
+        border-radius: 39px;
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .button:hover{
+        height: 22px;
+        width: 90px;
+        border-radius: 39px;
+    }
+    .title{
+        font-size: 15px;
+        line-height: 30px;
+        margin: 15px 0 0 0;
+    }
+    .border{
+        margin: 10px 0;
+        /* position: relative; */
+        width: 30%;
+    }
+    .thirdContainer{
+        display: flex;
+        width: 160px;
+        justify-content: space-between;
+    }
+    .address{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .mail{
+        font-size: 12px;
+        line-height: 15px;
+        margin: 10px 0;
+    }
+    .mobileNo{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .icon{
+        margin: 0;
+        width: 27px;
+    }
+    .icons{
+        margin: 0 0 0 10px;
+        width: 27px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .footer{
+        margin-top: 15px;
+    }
+    .col1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .text{
+        font-size: 18px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .main{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        flex-direction: column;
+    }
+    .subContent{
+        display: none;
+    }
+    .secondContent{
+        display: none;
+    }
+    .thirdContainer{
+        display: none;
+    }
+    .border{
+        display: none;
+    }
+    .title{
+        font-size: 13px;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    .footerDropdown{
+        display: flex;
+    }
+    .col2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+        /* height: 20px; */
+        /* background-color: red; */
+    }
+    .col3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+        /* height: 20px; */
+        /* background-color: red; */
+    }
+    .address{
+        font-size: 11px;
+        line-height: normal;
+    }
+    .mail{
+        font-size: 11px;
+        line-height: normal;
+    }
+    .mobileNo{
+        font-size: 11px;
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+    .icon{
+        margin: 0;
+        width: 30px;
+    }
+    .icons{
+        margin: 0 0 0 10px;
+        width: 30px;
+    }
+    .allIcon{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 0 8px 0;
+    }
+    .logoFooter{
+        width: 50%;
+    }
+}
+
+@media only screen and  (max-width: 375px) {
+    .footer{
+        margin-top: 15px;
+    }
+    .col1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .text{
+        font-size: 18px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .main{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        flex-direction: column;
+    }
+    .subContent{
+        display: none;
+    }
+    .secondContent{
+        display: none;
+    }
+    .thirdContainer{
+        display: none;
+    }
+    .border{
+        display: none;
+    }
+    .title{
+        font-size: 13px;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    .footerDropdown{
+        display: flex;
+    }
+    .col2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+        /* height: 20px; */
+        /* background-color: red; */
+    }
+    .col3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+        /* height: 20px; */
+        /* background-color: red; */
+    }
+    .address{
+        font-size: 11px;
+        line-height: normal;
+    }
+    .mail{
+        font-size: 11px;
+        line-height: normal;
+    }
+    .mobileNo{
+        font-size: 11px;
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+    .icon{
+        margin: 0;
+        width: 30px;
+    }
+    .icons{
+        margin: 0 0 0 10px;
+        width: 30px;
+    }
+    .allIcon{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 0 8px 0;
+    }
+    .logoFooter{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 385px) and (max-width: 426px) {
+    .footer{
+        margin-top: 15px;
+    }
+    .col1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .text{
+        font-size: 18px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .main{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        flex-direction: column;
+    }
+    .button{
+        height: 35px;
+        width: 190px;
+        background: linear-gradient(116.9deg, #3AC3EB 0%, #792F85 100%);
+        border-radius: 39px;
+        border: none;
+        /* font-family: 'Poppins'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .button:hover{
+        height: 35px;
+        width: 190px;
+        border-radius: 39px;
+        cursor: pointer;
+        background: transparent;
+        color: #233D63;
+        border: 2px solid #233D63;
+    }
+    .subContent{
+        display: none;
+    }
+    .secondContent{
+        display: none;
+    }
+    .thirdContainer{
+        display: none;
+    }
+    .border{
+        display: none;
+    }
+    .title{
+        font-size: 13px;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    .footerDropdown{
+        display: flex;
+    }
+    .col2, .col3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+    }
+    /* .col3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+    } */
+    .address{
+        font-size: 11px;
+        line-height: normal;
+    }
+    .mail{
+        font-size: 11px;
+        line-height: normal;
+    }
+    .mobileNo{
+        font-size: 11px;
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+    .icon{
+        margin: 0;
+        width: 30px;
+    }
+    .icons{
+        margin: 0 0 0 10px;
+        width: 30px;
+    }
+    .allIcon{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 0 8px 0;
+    }
+    .logoFooter{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+    .subContent{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .secondContent{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .logoFooter{
+        width: 80%;
+    }
+    .review{
+        border-radius: 0;
+        display: flex;
+        height: 60px;
+        width: 100px;
+        margin-top: 0px;
+    }
+    .text{
+        font-size: 9px;
+        line-height: 15px;
+        margin: 5px 0;
+    }
+    .button{
+        height: 22px;
+        width: 90px;
+        border-radius: 39px;
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .button:hover{
+        height: 22px;
+        width: 90px;
+        border-radius: 39px;
+    }
+    .title{
+        font-size: 15px;
+        line-height: 30px;
+        margin: 15px 0 0 0;
+    }
+    .border{
+        margin: 10px 0;
+        /* position: relative; */
+        width: 30%;
+    }
+    .thirdContainer{
+        display: flex;
+        width: 120px;
+        justify-content: space-between;
+    }
+    .address{
+        font-size: 8px;
+        line-height: 15px;
+    }
+    .mail{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .mobileNo{
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    .icon{
+        margin: 0;
+        width: 21px;
+    }
+    .icons{
+        margin: 0 0 0 10px;
+        width: 21px;
+    }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 999px) {
+    .subContent{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .secondContent{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .logoFooter{
+        width: 80%;
+    }
+    .review{
+        border-radius: 0;
+        display: flex;
+        height: 60px;
+        width: 100px;
+        margin-top: 0px;
+    }
+    .text{
+        font-size: 9px;
+        line-height: 15px;
+        margin: 5px 0;
+    }
+    .button{
+        height: 22px;
+        width: 90px;
+        border-radius: 39px;
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .button:hover{
+        height: 22px;
+        width: 90px;
+        border-radius: 39px;
+    }
+    .title{
+        font-size: 15px;
+        line-height: 30px;
+        margin: 15px 0 0 0;
+    }
+    .border{
+        margin: 10px 0;
+        /* position: relative; */
+        width: 30%;
+    }
+    .thirdContainer{
+        display: flex;
+        width: 120px;
+        justify-content: space-between;
+    }
+    .address{
+        font-size: 8px;
+        line-height: 15px;
+    }
+    .mail{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .mobileNo{
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    .icon{
+        margin: 0;
+        width: 21px;
+    }
+    .icons{
+        margin: 0 0 0 10px;
+        width: 21px;
+    }
+}
